@@ -1,0 +1,20 @@
+# Core Flask and Socket.IO
+flask
+flask-socketio
+flask-session
+
+# PDF Processing
+PyPDF2
+Pillow
+PyMuPDF
+
+# Azure Services
+azure-search-documents
+azure-storage-blob
+
+# OpenAI
+openai==0.28
+
+# Environment and Utility
+python-dotenv
+uuid

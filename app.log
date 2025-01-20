@@ -1,0 +1,2078 @@
+2025-01-16 10:20:08,308 - WARNING - semantic_settings is not a known attribute of class <class 'azure.search.documents.indexes.models._index.SearchIndex'> and will be ignored
+2025-01-16 10:20:08,309 - INFO - Request URL: 'https://searchmainai.search.windows.net/indexes('bot-pdf-index')?api-version=REDACTED'
+Request method: 'GET'
+Request headers:
+    'api-key': 'REDACTED'
+    'Accept': 'application/json;odata.metadata=minimal'
+    'x-ms-client-request-id': '5c587a40-d3c5-11ef-843f-902e1654ba30'
+    'User-Agent': 'azsdk-python-search-documents/11.5.2 Python/3.12.4 (Windows-10-10.0.19045-SP0)'
+No body was attached to the request
+2025-01-16 10:20:09,206 - INFO - Response status: 200
+Response headers:
+    'Transfer-Encoding': 'chunked'
+    'Content-Type': 'application/json; odata.metadata=minimal; odata.streaming=true; charset=utf-8'
+    'Content-Encoding': 'REDACTED'
+    'ETag': '"0x8DD2FB329338881"'
+    'Vary': 'REDACTED'
+    'Server': 'Microsoft-IIS/10.0'
+    'Strict-Transport-Security': 'REDACTED'
+    'Preference-Applied': 'REDACTED'
+    'OData-Version': 'REDACTED'
+    'request-id': '5c587a40-d3c5-11ef-843f-902e1654ba30'
+    'elapsed-time': 'REDACTED'
+    'Date': 'Thu, 16 Jan 2025 04:50:09 GMT'
+2025-01-16 10:20:09,227 - INFO - Found existing index: bot-pdf-index
+2025-01-16 10:20:09,302 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://10.4.8.27:5000
+2025-01-16 10:20:09,302 - INFO - [33mPress CTRL+C to quit[0m
+2025-01-16 10:20:09,314 - INFO -  * Restarting with stat
+2025-01-16 10:20:11,846 - WARNING - semantic_settings is not a known attribute of class <class 'azure.search.documents.indexes.models._index.SearchIndex'> and will be ignored
+2025-01-16 10:20:11,846 - INFO - Request URL: 'https://searchmainai.search.windows.net/indexes('bot-pdf-index')?api-version=REDACTED'
+Request method: 'GET'
+Request headers:
+    'api-key': 'REDACTED'
+    'Accept': 'application/json;odata.metadata=minimal'
+    'x-ms-client-request-id': '5e743c78-d3c5-11ef-9b97-902e1654ba30'
+    'User-Agent': 'azsdk-python-search-documents/11.5.2 Python/3.12.4 (Windows-10-10.0.19045-SP0)'
+No body was attached to the request
+2025-01-16 10:20:12,718 - INFO - Response status: 200
+Response headers:
+    'Transfer-Encoding': 'chunked'
+    'Content-Type': 'application/json; odata.metadata=minimal; odata.streaming=true; charset=utf-8'
+    'Content-Encoding': 'REDACTED'
+    'ETag': '"0x8DD2FB329338881"'
+    'Vary': 'REDACTED'
+    'Server': 'Microsoft-IIS/10.0'
+    'Strict-Transport-Security': 'REDACTED'
+    'Preference-Applied': 'REDACTED'
+    'OData-Version': 'REDACTED'
+    'request-id': '5e743c78-d3c5-11ef-9b97-902e1654ba30'
+    'elapsed-time': 'REDACTED'
+    'Date': 'Thu, 16 Jan 2025 04:50:12 GMT'
+2025-01-16 10:20:12,725 - INFO - Found existing index: bot-pdf-index
+2025-01-16 10:20:12,770 - WARNING -  * Debugger is active!
+2025-01-16 10:20:12,787 - INFO -  * Debugger PIN: 184-042-685
+2025-01-16 10:20:15,742 - INFO - 127.0.0.1 - - [16/Jan/2025 10:20:15] "GET / HTTP/1.1" 200 -
+2025-01-16 10:20:23,812 - INFO - Request URL: 'https://searchmainai.search.windows.net/indexes('bot-pdf-index')/docs/search.post.search?api-version=REDACTED'
+Request method: 'POST'
+Request headers:
+    'Content-Type': 'application/json'
+    'Content-Length': '152'
+    'api-key': 'REDACTED'
+    'Accept': 'application/json;odata.metadata=none'
+    'x-ms-client-request-id': '6595f87f-d3c5-11ef-80f8-902e1654ba30'
+    'User-Agent': 'azsdk-python-search-documents/11.5.2 Python/3.12.4 (Windows-10-10.0.19045-SP0)'
+A body is sent with the request
+2025-01-16 10:20:24,774 - INFO - Response status: 200
+Response headers:
+    'Transfer-Encoding': 'chunked'
+    'Content-Type': 'application/json; odata.metadata=none; odata.streaming=true; charset=utf-8'
+    'Content-Encoding': 'REDACTED'
+    'Vary': 'REDACTED'
+    'Server': 'Microsoft-IIS/10.0'
+    'Strict-Transport-Security': 'REDACTED'
+    'Preference-Applied': 'REDACTED'
+    'OData-Version': 'REDACTED'
+    'request-id': '6595f87f-d3c5-11ef-80f8-902e1654ba30'
+    'elapsed-time': 'REDACTED'
+    'Date': 'Thu, 16 Jan 2025 04:50:24 GMT'
+2025-01-16 10:20:26,319 - INFO - 127.0.0.1 - - [16/Jan/2025 10:20:26] "POST / HTTP/1.1" 200 -
+2025-01-16 10:20:45,095 - INFO - Request URL: 'https://searchmainai.search.windows.net/indexes('bot-pdf-index')/docs/search.post.search?api-version=REDACTED'
+Request method: 'POST'
+Request headers:
+    'Content-Type': 'application/json'
+    'Content-Length': '150'
+    'api-key': 'REDACTED'
+    'Accept': 'application/json;odata.metadata=none'
+    'x-ms-client-request-id': '72457495-d3c5-11ef-b1a8-902e1654ba30'
+    'User-Agent': 'azsdk-python-search-documents/11.5.2 Python/3.12.4 (Windows-10-10.0.19045-SP0)'
+A body is sent with the request
+2025-01-16 10:20:45,362 - INFO - Response status: 200
+Response headers:
+    'Transfer-Encoding': 'chunked'
+    'Content-Type': 'application/json; odata.metadata=none; odata.streaming=true; charset=utf-8'
+    'Content-Encoding': 'REDACTED'
+    'Vary': 'REDACTED'
+    'Server': 'Microsoft-IIS/10.0'
+    'Strict-Transport-Security': 'REDACTED'
+    'Preference-Applied': 'REDACTED'
+    'OData-Version': 'REDACTED'
+    'request-id': '72457495-d3c5-11ef-b1a8-902e1654ba30'
+    'elapsed-time': 'REDACTED'
+    'Date': 'Thu, 16 Jan 2025 04:50:45 GMT'
+2025-01-16 10:20:46,597 - INFO - 127.0.0.1 - - [16/Jan/2025 10:20:46] "POST / HTTP/1.1" 200 -
+2025-01-16 10:20:56,650 - INFO - Request URL: 'https://searchmainai.search.windows.net/indexes('bot-pdf-index')/docs/search.post.search?api-version=REDACTED'
+Request method: 'POST'
+Request headers:
+    'Content-Type': 'application/json'
+    'Content-Length': '166'
+    'api-key': 'REDACTED'
+    'Accept': 'application/json;odata.metadata=none'
+    'x-ms-client-request-id': '79285e45-d3c5-11ef-9328-902e1654ba30'
+    'User-Agent': 'azsdk-python-search-documents/11.5.2 Python/3.12.4 (Windows-10-10.0.19045-SP0)'
+A body is sent with the request
+2025-01-16 10:20:58,839 - INFO - Response status: 200
+Response headers:
+    'Transfer-Encoding': 'chunked'
+    'Content-Type': 'application/json; odata.metadata=none; odata.streaming=true; charset=utf-8'
+    'Content-Encoding': 'REDACTED'
+    'Vary': 'REDACTED'
+    'Server': 'Microsoft-IIS/10.0'
+    'Strict-Transport-Security': 'REDACTED'
+    'Preference-Applied': 'REDACTED'
+    'OData-Version': 'REDACTED'
+    'request-id': '79285e45-d3c5-11ef-9328-902e1654ba30'
+    'elapsed-time': 'REDACTED'
+    'Date': 'Thu, 16 Jan 2025 04:50:56 GMT'
+2025-01-16 10:21:01,440 - INFO - 127.0.0.1 - - [16/Jan/2025 10:21:01] "POST / HTTP/1.1" 200 -
+2025-01-16 10:21:31,181 - INFO - Request URL: 'https://searchmainai.search.windows.net/indexes('bot-pdf-index')/docs/search.post.search?api-version=REDACTED'
+Request method: 'POST'
+Request headers:
+    'Content-Type': 'application/json'
+    'Content-Length': '168'
+    'api-key': 'REDACTED'
+    'Accept': 'application/json;odata.metadata=none'
+    'x-ms-client-request-id': '8dbdb75e-d3c5-11ef-a837-902e1654ba30'
+    'User-Agent': 'azsdk-python-search-documents/11.5.2 Python/3.12.4 (Windows-10-10.0.19045-SP0)'
+A body is sent with the request
+2025-01-16 10:21:31,806 - INFO - Response status: 200
+Response headers:
+    'Transfer-Encoding': 'chunked'
+    'Content-Type': 'application/json; odata.metadata=none; odata.streaming=true; charset=utf-8'
+    'Content-Encoding': 'REDACTED'
+    'Vary': 'REDACTED'
+    'Server': 'Microsoft-IIS/10.0'
+    'Strict-Transport-Security': 'REDACTED'
+    'Preference-Applied': 'REDACTED'
+    'OData-Version': 'REDACTED'
+    'request-id': '8dbdb75e-d3c5-11ef-a837-902e1654ba30'
+    'elapsed-time': 'REDACTED'
+    'Date': 'Thu, 16 Jan 2025 04:51:31 GMT'
+2025-01-16 10:21:34,530 - INFO - 127.0.0.1 - - [16/Jan/2025 10:21:34] "POST / HTTP/1.1" 200 -
+2025-01-16 10:25:18,496 - INFO - 127.0.0.1 - - [16/Jan/2025 10:25:18] "[32mPOST /clear HTTP/1.1[0m" 302 -
+2025-01-16 10:25:18,773 - INFO - 127.0.0.1 - - [16/Jan/2025 10:25:18] "GET / HTTP/1.1" 200 -
+2025-01-16 10:25:20,712 - INFO - 127.0.0.1 - - [16/Jan/2025 10:25:20] "GET / HTTP/1.1" 200 -
+2025-01-16 10:25:32,425 - WARNING - semantic_settings is not a known attribute of class <class 'azure.search.documents.indexes.models._index.SearchIndex'> and will be ignored
+2025-01-16 10:25:32,425 - INFO - Request URL: 'https://searchmainai.search.windows.net/indexes('bot-pdf-index')?api-version=REDACTED'
+Request method: 'GET'
+Request headers:
+    'api-key': 'REDACTED'
+    'Accept': 'application/json;odata.metadata=minimal'
+    'x-ms-client-request-id': '1d88a310-d3c6-11ef-a47b-902e1654ba30'
+    'User-Agent': 'azsdk-python-search-documents/11.5.2 Python/3.12.4 (Windows-10-10.0.19045-SP0)'
+No body was attached to the request
+2025-01-16 10:25:33,337 - INFO - Response status: 200
+Response headers:
+    'Transfer-Encoding': 'chunked'
+    'Content-Type': 'application/json; odata.metadata=minimal; odata.streaming=true; charset=utf-8'
+    'Content-Encoding': 'REDACTED'
+    'ETag': '"0x8DD2FB329338881"'
+    'Vary': 'REDACTED'
+    'Server': 'Microsoft-IIS/10.0'
+    'Strict-Transport-Security': 'REDACTED'
+    'Preference-Applied': 'REDACTED'
+    'OData-Version': 'REDACTED'
+    'request-id': '1d88a310-d3c6-11ef-a47b-902e1654ba30'
+    'elapsed-time': 'REDACTED'
+    'Date': 'Thu, 16 Jan 2025 04:55:33 GMT'
+2025-01-16 10:25:33,337 - INFO - Found existing index: bot-pdf-index
+2025-01-16 10:25:33,429 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://10.4.8.27:5000
+2025-01-16 10:25:33,429 - INFO - [33mPress CTRL+C to quit[0m
+2025-01-16 10:25:33,429 - INFO -  * Restarting with stat
+2025-01-16 10:25:35,921 - WARNING - semantic_settings is not a known attribute of class <class 'azure.search.documents.indexes.models._index.SearchIndex'> and will be ignored
+2025-01-16 10:25:35,925 - INFO - Request URL: 'https://searchmainai.search.windows.net/indexes('bot-pdf-index')?api-version=REDACTED'
+Request method: 'GET'
+Request headers:
+    'api-key': 'REDACTED'
+    'Accept': 'application/json;odata.metadata=minimal'
+    'x-ms-client-request-id': '1f9ea69a-d3c6-11ef-871f-902e1654ba30'
+    'User-Agent': 'azsdk-python-search-documents/11.5.2 Python/3.12.4 (Windows-10-10.0.19045-SP0)'
+No body was attached to the request
+2025-01-16 10:25:36,800 - INFO - Response status: 200
+Response headers:
+    'Transfer-Encoding': 'chunked'
+    'Content-Type': 'application/json; odata.metadata=minimal; odata.streaming=true; charset=utf-8'
+    'Content-Encoding': 'REDACTED'
+    'ETag': '"0x8DD2FB329338881"'
+    'Vary': 'REDACTED'
+    'Server': 'Microsoft-IIS/10.0'
+    'Strict-Transport-Security': 'REDACTED'
+    'Preference-Applied': 'REDACTED'
+    'OData-Version': 'REDACTED'
+    'request-id': '1f9ea69a-d3c6-11ef-871f-902e1654ba30'
+    'elapsed-time': 'REDACTED'
+    'Date': 'Thu, 16 Jan 2025 04:55:36 GMT'
+2025-01-16 10:25:36,829 - INFO - Found existing index: bot-pdf-index
+2025-01-16 10:25:36,881 - WARNING -  * Debugger is active!
+2025-01-16 10:25:36,905 - INFO -  * Debugger PIN: 184-042-685
+2025-01-16 10:25:36,993 - INFO - 127.0.0.1 - - [16/Jan/2025 10:25:36] "GET / HTTP/1.1" 200 -
+2025-01-16 10:25:40,223 - INFO - Request URL: 'https://searchmainai.search.windows.net/indexes('bot-pdf-index')/docs/search.post.search?api-version=REDACTED'
+Request method: 'POST'
+Request headers:
+    'Content-Type': 'application/json'
+    'Content-Length': '150'
+    'api-key': 'REDACTED'
+    'Accept': 'application/json;odata.metadata=none'
+    'x-ms-client-request-id': '222e8b4e-d3c6-11ef-8f93-902e1654ba30'
+    'User-Agent': 'azsdk-python-search-documents/11.5.2 Python/3.12.4 (Windows-10-10.0.19045-SP0)'
+A body is sent with the request
+2025-01-16 10:25:41,148 - INFO - Response status: 200
+Response headers:
+    'Transfer-Encoding': 'chunked'
+    'Content-Type': 'application/json; odata.metadata=none; odata.streaming=true; charset=utf-8'
+    'Content-Encoding': 'REDACTED'
+    'Vary': 'REDACTED'
+    'Server': 'Microsoft-IIS/10.0'
+    'Strict-Transport-Security': 'REDACTED'
+    'Preference-Applied': 'REDACTED'
+    'OData-Version': 'REDACTED'
+    'request-id': '222e8b4e-d3c6-11ef-8f93-902e1654ba30'
+    'elapsed-time': 'REDACTED'
+    'Date': 'Thu, 16 Jan 2025 04:55:41 GMT'
+2025-01-16 10:25:42,612 - INFO - 127.0.0.1 - - [16/Jan/2025 10:25:42] "POST / HTTP/1.1" 200 -
+2025-01-16 10:25:56,974 - INFO - Request URL: 'https://searchmainai.search.windows.net/indexes('bot-pdf-index')/docs/search.post.search?api-version=REDACTED'
+Request method: 'POST'
+Request headers:
+    'Content-Type': 'application/json'
+    'Content-Length': '166'
+    'api-key': 'REDACTED'
+    'Accept': 'application/json;odata.metadata=none'
+    'x-ms-client-request-id': '2c2a836a-d3c6-11ef-95ea-902e1654ba30'
+    'User-Agent': 'azsdk-python-search-documents/11.5.2 Python/3.12.4 (Windows-10-10.0.19045-SP0)'
+A body is sent with the request
+2025-01-16 10:25:59,438 - INFO - Response status: 200
+Response headers:
+    'Transfer-Encoding': 'chunked'
+    'Content-Type': 'application/json; odata.metadata=none; odata.streaming=true; charset=utf-8'
+    'Content-Encoding': 'REDACTED'
+    'Vary': 'REDACTED'
+    'Server': 'Microsoft-IIS/10.0'
+    'Strict-Transport-Security': 'REDACTED'
+    'Preference-Applied': 'REDACTED'
+    'OData-Version': 'REDACTED'
+    'request-id': '2c2a836a-d3c6-11ef-95ea-902e1654ba30'
+    'elapsed-time': 'REDACTED'
+    'Date': 'Thu, 16 Jan 2025 04:55:57 GMT'
+2025-01-16 10:26:01,522 - INFO - 127.0.0.1 - - [16/Jan/2025 10:26:01] "POST / HTTP/1.1" 200 -
+2025-01-16 10:26:26,142 - INFO - Request URL: 'https://searchmainai.search.windows.net/indexes('bot-pdf-index')/docs/search.post.search?api-version=REDACTED'
+Request method: 'POST'
+Request headers:
+    'Content-Type': 'application/json'
+    'Content-Length': '168'
+    'api-key': 'REDACTED'
+    'Accept': 'application/json;odata.metadata=none'
+    'x-ms-client-request-id': '3d8d35a9-d3c6-11ef-9df7-902e1654ba30'
+    'User-Agent': 'azsdk-python-search-documents/11.5.2 Python/3.12.4 (Windows-10-10.0.19045-SP0)'
+A body is sent with the request
+2025-01-16 10:26:26,721 - INFO - Response status: 200
+Response headers:
+    'Transfer-Encoding': 'chunked'
+    'Content-Type': 'application/json; odata.metadata=none; odata.streaming=true; charset=utf-8'
+    'Content-Encoding': 'REDACTED'
+    'Vary': 'REDACTED'
+    'Server': 'Microsoft-IIS/10.0'
+    'Strict-Transport-Security': 'REDACTED'
+    'Preference-Applied': 'REDACTED'
+    'OData-Version': 'REDACTED'
+    'request-id': '3d8d35a9-d3c6-11ef-9df7-902e1654ba30'
+    'elapsed-time': 'REDACTED'
+    'Date': 'Thu, 16 Jan 2025 04:56:26 GMT'
+2025-01-16 10:26:30,095 - INFO - 127.0.0.1 - - [16/Jan/2025 10:26:30] "POST / HTTP/1.1" 200 -
+2025-01-16 10:26:50,242 - INFO - Request URL: 'https://searchmainai.search.windows.net/indexes('bot-pdf-index')/docs/search.post.search?api-version=REDACTED'
+Request method: 'POST'
+Request headers:
+    'Content-Type': 'application/json'
+    'Content-Length': '166'
+    'api-key': 'REDACTED'
+    'Accept': 'application/json;odata.metadata=none'
+    'x-ms-client-request-id': '4beaa795-d3c6-11ef-9232-902e1654ba30'
+    'User-Agent': 'azsdk-python-search-documents/11.5.2 Python/3.12.4 (Windows-10-10.0.19045-SP0)'
+A body is sent with the request
+2025-01-16 10:26:53,841 - INFO - Response status: 200
+Response headers:
+    'Transfer-Encoding': 'chunked'
+    'Content-Type': 'application/json; odata.metadata=none; odata.streaming=true; charset=utf-8'
+    'Content-Encoding': 'REDACTED'
+    'Vary': 'REDACTED'
+    'Server': 'Microsoft-IIS/10.0'
+    'Strict-Transport-Security': 'REDACTED'
+    'Preference-Applied': 'REDACTED'
+    'OData-Version': 'REDACTED'
+    'request-id': '4beaa795-d3c6-11ef-9232-902e1654ba30'
+    'elapsed-time': 'REDACTED'
+    'Date': 'Thu, 16 Jan 2025 04:56:50 GMT'
+2025-01-16 10:26:56,166 - INFO - 127.0.0.1 - - [16/Jan/2025 10:26:56] "POST / HTTP/1.1" 200 -
+2025-01-16 10:27:17,831 - INFO - 127.0.0.1 - - [16/Jan/2025 10:27:17] "[32mPOST /clear HTTP/1.1[0m" 302 -
+2025-01-16 10:27:18,015 - INFO - 127.0.0.1 - - [16/Jan/2025 10:27:18] "GET / HTTP/1.1" 200 -
+2025-01-16 10:27:18,466 - INFO - 127.0.0.1 - - [16/Jan/2025 10:27:18] "GET / HTTP/1.1" 200 -
+2025-01-16 10:27:36,888 - INFO - Request URL: 'https://searchmainai.search.windows.net/indexes('bot-pdf-index')/docs/search.post.search?api-version=REDACTED'
+Request method: 'POST'
+Request headers:
+    'Content-Type': 'application/json'
+    'Content-Length': '166'
+    'api-key': 'REDACTED'
+    'Accept': 'application/json;odata.metadata=none'
+    'x-ms-client-request-id': '67b80543-d3c6-11ef-b724-902e1654ba30'
+    'User-Agent': 'azsdk-python-search-documents/11.5.2 Python/3.12.4 (Windows-10-10.0.19045-SP0)'
+A body is sent with the request
+2025-01-16 10:27:39,432 - INFO - Response status: 200
+Response headers:
+    'Transfer-Encoding': 'chunked'
+    'Content-Type': 'application/json; odata.metadata=none; odata.streaming=true; charset=utf-8'
+    'Content-Encoding': 'REDACTED'
+    'Vary': 'REDACTED'
+    'Server': 'Microsoft-IIS/10.0'
+    'Strict-Transport-Security': 'REDACTED'
+    'Preference-Applied': 'REDACTED'
+    'OData-Version': 'REDACTED'
+    'request-id': '67b80543-d3c6-11ef-b724-902e1654ba30'
+    'elapsed-time': 'REDACTED'
+    'Date': 'Thu, 16 Jan 2025 04:57:37 GMT'
+2025-01-16 10:27:42,882 - INFO - 127.0.0.1 - - [16/Jan/2025 10:27:42] "POST / HTTP/1.1" 200 -
+2025-01-16 10:28:20,419 - INFO - 127.0.0.1 - - [16/Jan/2025 10:28:20] "[32mPOST /clear HTTP/1.1[0m" 302 -
+2025-01-16 10:28:20,725 - INFO - 127.0.0.1 - - [16/Jan/2025 10:28:20] "GET / HTTP/1.1" 200 -
+2025-01-16 10:28:32,938 - WARNING - semantic_settings is not a known attribute of class <class 'azure.search.documents.indexes.models._index.SearchIndex'> and will be ignored
+2025-01-16 10:28:32,941 - INFO - Request URL: 'https://searchmainai.search.windows.net/indexes('bot-pdf-index')?api-version=REDACTED'
+Request method: 'GET'
+Request headers:
+    'api-key': 'REDACTED'
+    'Accept': 'application/json;odata.metadata=minimal'
+    'x-ms-client-request-id': '89213166-d3c6-11ef-82cf-902e1654ba30'
+    'User-Agent': 'azsdk-python-search-documents/11.5.2 Python/3.12.4 (Windows-10-10.0.19045-SP0)'
+No body was attached to the request
+2025-01-16 10:28:33,835 - INFO - Response status: 200
+Response headers:
+    'Transfer-Encoding': 'chunked'
+    'Content-Type': 'application/json; odata.metadata=minimal; odata.streaming=true; charset=utf-8'
+    'Content-Encoding': 'REDACTED'
+    'ETag': '"0x8DD2FB329338881"'
+    'Vary': 'REDACTED'
+    'Server': 'Microsoft-IIS/10.0'
+    'Strict-Transport-Security': 'REDACTED'
+    'Preference-Applied': 'REDACTED'
+    'OData-Version': 'REDACTED'
+    'request-id': '89213166-d3c6-11ef-82cf-902e1654ba30'
+    'elapsed-time': 'REDACTED'
+    'Date': 'Thu, 16 Jan 2025 04:58:33 GMT'
+2025-01-16 10:28:33,851 - INFO - Found existing index: bot-pdf-index
+2025-01-16 10:28:33,913 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://10.4.8.27:5000
+2025-01-16 10:28:33,913 - INFO - [33mPress CTRL+C to quit[0m
+2025-01-16 10:28:33,922 - INFO -  * Restarting with stat
+2025-01-16 10:28:36,356 - WARNING - semantic_settings is not a known attribute of class <class 'azure.search.documents.indexes.models._index.SearchIndex'> and will be ignored
+2025-01-16 10:28:36,358 - INFO - Request URL: 'https://searchmainai.search.windows.net/indexes('bot-pdf-index')?api-version=REDACTED'
+Request method: 'GET'
+Request headers:
+    'api-key': 'REDACTED'
+    'Accept': 'application/json;odata.metadata=minimal'
+    'x-ms-client-request-id': '8b2a9d94-d3c6-11ef-a1b1-902e1654ba30'
+    'User-Agent': 'azsdk-python-search-documents/11.5.2 Python/3.12.4 (Windows-10-10.0.19045-SP0)'
+No body was attached to the request
+2025-01-16 10:28:37,211 - INFO - Response status: 200
+Response headers:
+    'Transfer-Encoding': 'chunked'
+    'Content-Type': 'application/json; odata.metadata=minimal; odata.streaming=true; charset=utf-8'
+    'Content-Encoding': 'REDACTED'
+    'ETag': '"0x8DD2FB329338881"'
+    'Vary': 'REDACTED'
+    'Server': 'Microsoft-IIS/10.0'
+    'Strict-Transport-Security': 'REDACTED'
+    'Preference-Applied': 'REDACTED'
+    'OData-Version': 'REDACTED'
+    'request-id': '8b2a9d94-d3c6-11ef-a1b1-902e1654ba30'
+    'elapsed-time': 'REDACTED'
+    'Date': 'Thu, 16 Jan 2025 04:58:37 GMT'
+2025-01-16 10:28:37,230 - INFO - Found existing index: bot-pdf-index
+2025-01-16 10:28:37,266 - WARNING -  * Debugger is active!
+2025-01-16 10:28:37,284 - INFO -  * Debugger PIN: 184-042-685
+2025-01-16 10:28:47,133 - INFO - 127.0.0.1 - - [16/Jan/2025 10:28:47] "GET / HTTP/1.1" 200 -
+2025-01-16 10:28:49,993 - INFO - Request URL: 'https://searchmainai.search.windows.net/indexes('bot-pdf-index')/docs/search.post.search?api-version=REDACTED'
+Request method: 'POST'
+Request headers:
+    'Content-Type': 'application/json'
+    'Content-Length': '150'
+    'api-key': 'REDACTED'
+    'Accept': 'application/json;odata.metadata=none'
+    'x-ms-client-request-id': '934ac830-d3c6-11ef-8923-902e1654ba30'
+    'User-Agent': 'azsdk-python-search-documents/11.5.2 Python/3.12.4 (Windows-10-10.0.19045-SP0)'
+A body is sent with the request
+2025-01-16 10:28:50,977 - INFO - Response status: 200
+Response headers:
+    'Transfer-Encoding': 'chunked'
+    'Content-Type': 'application/json; odata.metadata=none; odata.streaming=true; charset=utf-8'
+    'Content-Encoding': 'REDACTED'
+    'Vary': 'REDACTED'
+    'Server': 'Microsoft-IIS/10.0'
+    'Strict-Transport-Security': 'REDACTED'
+    'Preference-Applied': 'REDACTED'
+    'OData-Version': 'REDACTED'
+    'request-id': '934ac830-d3c6-11ef-8923-902e1654ba30'
+    'elapsed-time': 'REDACTED'
+    'Date': 'Thu, 16 Jan 2025 04:58:50 GMT'
+2025-01-16 10:28:52,587 - INFO - 127.0.0.1 - - [16/Jan/2025 10:28:52] "POST / HTTP/1.1" 200 -
+2025-01-16 10:28:58,906 - INFO - Request URL: 'https://searchmainai.search.windows.net/indexes('bot-pdf-index')/docs/search.post.search?api-version=REDACTED'
+Request method: 'POST'
+Request headers:
+    'Content-Type': 'application/json'
+    'Content-Length': '166'
+    'api-key': 'REDACTED'
+    'Accept': 'application/json;odata.metadata=none'
+    'x-ms-client-request-id': '989b3014-d3c6-11ef-9ce7-902e1654ba30'
+    'User-Agent': 'azsdk-python-search-documents/11.5.2 Python/3.12.4 (Windows-10-10.0.19045-SP0)'
+A body is sent with the request
+2025-01-16 10:29:01,182 - INFO - Response status: 200
+Response headers:
+    'Transfer-Encoding': 'chunked'
+    'Content-Type': 'application/json; odata.metadata=none; odata.streaming=true; charset=utf-8'
+    'Content-Encoding': 'REDACTED'
+    'Vary': 'REDACTED'
+    'Server': 'Microsoft-IIS/10.0'
+    'Strict-Transport-Security': 'REDACTED'
+    'Preference-Applied': 'REDACTED'
+    'OData-Version': 'REDACTED'
+    'request-id': '989b3014-d3c6-11ef-9ce7-902e1654ba30'
+    'elapsed-time': 'REDACTED'
+    'Date': 'Thu, 16 Jan 2025 04:58:59 GMT'
+2025-01-16 10:29:03,533 - INFO - 127.0.0.1 - - [16/Jan/2025 10:29:03] "POST / HTTP/1.1" 200 -
+2025-01-16 10:29:28,320 - INFO - Request URL: 'https://searchmainai.search.windows.net/indexes('bot-pdf-index')/docs/search.post.search?api-version=REDACTED'
+Request method: 'POST'
+Request headers:
+    'Content-Type': 'application/json'
+    'Content-Length': '168'
+    'api-key': 'REDACTED'
+    'Accept': 'application/json;odata.metadata=none'
+    'x-ms-client-request-id': 'aa2360f6-d3c6-11ef-b0ce-902e1654ba30'
+    'User-Agent': 'azsdk-python-search-documents/11.5.2 Python/3.12.4 (Windows-10-10.0.19045-SP0)'
+A body is sent with the request
+2025-01-16 10:29:28,935 - INFO - Response status: 200
+Response headers:
+    'Transfer-Encoding': 'chunked'
+    'Content-Type': 'application/json; odata.metadata=none; odata.streaming=true; charset=utf-8'
+    'Content-Encoding': 'REDACTED'
+    'Vary': 'REDACTED'
+    'Server': 'Microsoft-IIS/10.0'
+    'Strict-Transport-Security': 'REDACTED'
+    'Preference-Applied': 'REDACTED'
+    'OData-Version': 'REDACTED'
+    'request-id': 'aa2360f6-d3c6-11ef-b0ce-902e1654ba30'
+    'elapsed-time': 'REDACTED'
+    'Date': 'Thu, 16 Jan 2025 04:59:28 GMT'
+2025-01-16 10:29:32,260 - INFO - 127.0.0.1 - - [16/Jan/2025 10:29:32] "POST / HTTP/1.1" 200 -
+2025-01-16 10:30:11,402 - INFO - Request URL: 'https://searchmainai.search.windows.net/indexes('bot-pdf-index')/docs/search.post.search?api-version=REDACTED'
+Request method: 'POST'
+Request headers:
+    'Content-Type': 'application/json'
+    'Content-Length': '183'
+    'api-key': 'REDACTED'
+    'Accept': 'application/json;odata.metadata=none'
+    'x-ms-client-request-id': 'c3d10ba2-d3c6-11ef-a6a9-902e1654ba30'
+    'User-Agent': 'azsdk-python-search-documents/11.5.2 Python/3.12.4 (Windows-10-10.0.19045-SP0)'
+A body is sent with the request
+2025-01-16 10:30:11,788 - INFO - Response status: 200
+Response headers:
+    'Transfer-Encoding': 'chunked'
+    'Content-Type': 'application/json; odata.metadata=none; odata.streaming=true; charset=utf-8'
+    'Content-Encoding': 'REDACTED'
+    'Vary': 'REDACTED'
+    'Server': 'Microsoft-IIS/10.0'
+    'Strict-Transport-Security': 'REDACTED'
+    'Preference-Applied': 'REDACTED'
+    'OData-Version': 'REDACTED'
+    'request-id': 'c3d10ba2-d3c6-11ef-a6a9-902e1654ba30'
+    'elapsed-time': 'REDACTED'
+    'Date': 'Thu, 16 Jan 2025 05:00:11 GMT'
+2025-01-16 10:30:13,935 - INFO - 127.0.0.1 - - [16/Jan/2025 10:30:13] "POST / HTTP/1.1" 200 -
+2025-01-16 10:30:44,958 - INFO - Request URL: 'https://searchmainai.search.windows.net/indexes('bot-pdf-index')/docs/search.post.search?api-version=REDACTED'
+Request method: 'POST'
+Request headers:
+    'Content-Type': 'application/json'
+    'Content-Length': '169'
+    'api-key': 'REDACTED'
+    'Accept': 'application/json;odata.metadata=none'
+    'x-ms-client-request-id': 'd7d175b3-d3c6-11ef-89d1-902e1654ba30'
+    'User-Agent': 'azsdk-python-search-documents/11.5.2 Python/3.12.4 (Windows-10-10.0.19045-SP0)'
+A body is sent with the request
+2025-01-16 10:30:45,531 - INFO - Response status: 200
+Response headers:
+    'Transfer-Encoding': 'chunked'
+    'Content-Type': 'application/json; odata.metadata=none; odata.streaming=true; charset=utf-8'
+    'Content-Encoding': 'REDACTED'
+    'Vary': 'REDACTED'
+    'Server': 'Microsoft-IIS/10.0'
+    'Strict-Transport-Security': 'REDACTED'
+    'Preference-Applied': 'REDACTED'
+    'OData-Version': 'REDACTED'
+    'request-id': 'd7d175b3-d3c6-11ef-89d1-902e1654ba30'
+    'elapsed-time': 'REDACTED'
+    'Date': 'Thu, 16 Jan 2025 05:00:45 GMT'
+2025-01-16 10:30:49,011 - INFO - 127.0.0.1 - - [16/Jan/2025 10:30:49] "POST / HTTP/1.1" 200 -
+2025-01-16 10:30:54,048 - INFO - Request URL: 'https://searchmainai.search.windows.net/indexes('bot-pdf-index')/docs/search.post.search?api-version=REDACTED'
+Request method: 'POST'
+Request headers:
+    'Content-Type': 'application/json'
+    'Content-Length': '169'
+    'api-key': 'REDACTED'
+    'Accept': 'application/json;odata.metadata=none'
+    'x-ms-client-request-id': 'dd3c65b5-d3c6-11ef-984a-902e1654ba30'
+    'User-Agent': 'azsdk-python-search-documents/11.5.2 Python/3.12.4 (Windows-10-10.0.19045-SP0)'
+A body is sent with the request
+2025-01-16 10:30:54,389 - INFO - Response status: 200
+Response headers:
+    'Transfer-Encoding': 'chunked'
+    'Content-Type': 'application/json; odata.metadata=none; odata.streaming=true; charset=utf-8'
+    'Content-Encoding': 'REDACTED'
+    'Vary': 'REDACTED'
+    'Server': 'Microsoft-IIS/10.0'
+    'Strict-Transport-Security': 'REDACTED'
+    'Preference-Applied': 'REDACTED'
+    'OData-Version': 'REDACTED'
+    'request-id': 'dd3c65b5-d3c6-11ef-984a-902e1654ba30'
+    'elapsed-time': 'REDACTED'
+    'Date': 'Thu, 16 Jan 2025 05:00:54 GMT'
+2025-01-16 10:30:57,976 - INFO - 127.0.0.1 - - [16/Jan/2025 10:30:57] "POST / HTTP/1.1" 200 -
+2025-01-16 10:31:56,586 - INFO - Request URL: 'https://searchmainai.search.windows.net/indexes('bot-pdf-index')/docs/search.post.search?api-version=REDACTED'
+Request method: 'POST'
+Request headers:
+    'Content-Type': 'application/json'
+    'Content-Length': '185'
+    'api-key': 'REDACTED'
+    'Accept': 'application/json;odata.metadata=none'
+    'x-ms-client-request-id': '0282f737-d3c7-11ef-809c-902e1654ba30'
+    'User-Agent': 'azsdk-python-search-documents/11.5.2 Python/3.12.4 (Windows-10-10.0.19045-SP0)'
+A body is sent with the request
+2025-01-16 10:31:57,164 - INFO - Response status: 200
+Response headers:
+    'Transfer-Encoding': 'chunked'
+    'Content-Type': 'application/json; odata.metadata=none; odata.streaming=true; charset=utf-8'
+    'Content-Encoding': 'REDACTED'
+    'Vary': 'REDACTED'
+    'Server': 'Microsoft-IIS/10.0'
+    'Strict-Transport-Security': 'REDACTED'
+    'Preference-Applied': 'REDACTED'
+    'OData-Version': 'REDACTED'
+    'request-id': '0282f737-d3c7-11ef-809c-902e1654ba30'
+    'elapsed-time': 'REDACTED'
+    'Date': 'Thu, 16 Jan 2025 05:01:56 GMT'
+2025-01-16 10:32:00,400 - INFO - 127.0.0.1 - - [16/Jan/2025 10:32:00] "POST / HTTP/1.1" 200 -
+2025-01-16 10:32:23,136 - INFO - 127.0.0.1 - - [16/Jan/2025 10:32:23] "[32mPOST /clear HTTP/1.1[0m" 302 -
+2025-01-16 10:32:23,675 - INFO - 127.0.0.1 - - [16/Jan/2025 10:32:23] "GET / HTTP/1.1" 200 -
+2025-01-16 10:32:24,174 - INFO - 127.0.0.1 - - [16/Jan/2025 10:32:24] "GET / HTTP/1.1" 200 -
+2025-01-16 10:40:56,007 - WARNING - semantic_settings is not a known attribute of class <class 'azure.search.documents.indexes.models._index.SearchIndex'> and will be ignored
+2025-01-16 10:40:56,007 - INFO - Request URL: 'https://searchmainai.search.windows.net/indexes('bot-pdf-index')?api-version=REDACTED'
+Request method: 'GET'
+Request headers:
+    'api-key': 'REDACTED'
+    'Accept': 'application/json;odata.metadata=minimal'
+    'x-ms-client-request-id': '440826cc-d3c8-11ef-a3e9-902e1654ba30'
+    'User-Agent': 'azsdk-python-search-documents/11.5.2 Python/3.12.4 (Windows-10-10.0.19045-SP0)'
+No body was attached to the request
+2025-01-16 10:40:56,996 - INFO - Response status: 200
+Response headers:
+    'Transfer-Encoding': 'chunked'
+    'Content-Type': 'application/json; odata.metadata=minimal; odata.streaming=true; charset=utf-8'
+    'Content-Encoding': 'REDACTED'
+    'ETag': '"0x8DD2FB329338881"'
+    'Vary': 'REDACTED'
+    'Server': 'Microsoft-IIS/10.0'
+    'Strict-Transport-Security': 'REDACTED'
+    'Preference-Applied': 'REDACTED'
+    'OData-Version': 'REDACTED'
+    'request-id': '440826cc-d3c8-11ef-a3e9-902e1654ba30'
+    'elapsed-time': 'REDACTED'
+    'Date': 'Thu, 16 Jan 2025 05:10:56 GMT'
+2025-01-16 10:40:56,996 - INFO - Found existing index: bot-pdf-index
+2025-01-16 10:40:57,100 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://10.4.8.27:5000
+2025-01-16 10:40:57,101 - INFO - [33mPress CTRL+C to quit[0m
+2025-01-16 10:40:57,106 - INFO -  * Restarting with stat
+2025-01-16 10:40:59,786 - WARNING - semantic_settings is not a known attribute of class <class 'azure.search.documents.indexes.models._index.SearchIndex'> and will be ignored
+2025-01-16 10:40:59,790 - INFO - Request URL: 'https://searchmainai.search.windows.net/indexes('bot-pdf-index')?api-version=REDACTED'
+Request method: 'GET'
+Request headers:
+    'api-key': 'REDACTED'
+    'Accept': 'application/json;odata.metadata=minimal'
+    'x-ms-client-request-id': '46495a86-d3c8-11ef-95bd-902e1654ba30'
+    'User-Agent': 'azsdk-python-search-documents/11.5.2 Python/3.12.4 (Windows-10-10.0.19045-SP0)'
+No body was attached to the request
+2025-01-16 10:41:00,759 - INFO - Response status: 200
+Response headers:
+    'Transfer-Encoding': 'chunked'
+    'Content-Type': 'application/json; odata.metadata=minimal; odata.streaming=true; charset=utf-8'
+    'Content-Encoding': 'REDACTED'
+    'ETag': '"0x8DD2FB329338881"'
+    'Vary': 'REDACTED'
+    'Server': 'Microsoft-IIS/10.0'
+    'Strict-Transport-Security': 'REDACTED'
+    'Preference-Applied': 'REDACTED'
+    'OData-Version': 'REDACTED'
+    'request-id': '46495a86-d3c8-11ef-95bd-902e1654ba30'
+    'elapsed-time': 'REDACTED'
+    'Date': 'Thu, 16 Jan 2025 05:11:00 GMT'
+2025-01-16 10:41:00,768 - INFO - Found existing index: bot-pdf-index
+2025-01-16 10:41:00,814 - WARNING -  * Debugger is active!
+2025-01-16 10:41:00,821 - INFO -  * Debugger PIN: 184-042-685
+2025-01-16 11:49:34,341 - WARNING - semantic_settings is not a known attribute of class <class 'azure.search.documents.indexes.models._index.SearchIndex'> and will be ignored
+2025-01-16 11:49:34,341 - INFO - Request URL: 'https://searchmainai.search.windows.net/indexes('bot-pdf-index')?api-version=REDACTED'
+Request method: 'GET'
+Request headers:
+    'api-key': 'REDACTED'
+    'Accept': 'application/json;odata.metadata=minimal'
+    'x-ms-client-request-id': 'dac00c17-d3d1-11ef-9840-902e1654ba30'
+    'User-Agent': 'azsdk-python-search-documents/11.5.2 Python/3.12.4 (Windows-10-10.0.19045-SP0)'
+No body was attached to the request
+2025-01-16 11:49:35,565 - INFO - Response status: 200
+Response headers:
+    'Transfer-Encoding': 'chunked'
+    'Content-Type': 'application/json; odata.metadata=minimal; odata.streaming=true; charset=utf-8'
+    'Content-Encoding': 'REDACTED'
+    'ETag': '"0x8DD2FB329338881"'
+    'Vary': 'REDACTED'
+    'Server': 'Microsoft-IIS/10.0'
+    'Strict-Transport-Security': 'REDACTED'
+    'Preference-Applied': 'REDACTED'
+    'OData-Version': 'REDACTED'
+    'request-id': 'dac00c17-d3d1-11ef-9840-902e1654ba30'
+    'elapsed-time': 'REDACTED'
+    'Date': 'Thu, 16 Jan 2025 06:19:35 GMT'
+2025-01-16 11:49:35,576 - INFO - Found existing index: bot-pdf-index
+2025-01-16 11:49:35,731 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://10.4.8.27:5000
+2025-01-16 11:49:35,731 - INFO - [33mPress CTRL+C to quit[0m
+2025-01-16 11:49:35,740 - INFO -  * Restarting with stat
+2025-01-16 11:49:38,790 - WARNING - semantic_settings is not a known attribute of class <class 'azure.search.documents.indexes.models._index.SearchIndex'> and will be ignored
+2025-01-16 11:49:38,792 - INFO - Request URL: 'https://searchmainai.search.windows.net/indexes('bot-pdf-index')?api-version=REDACTED'
+Request method: 'GET'
+Request headers:
+    'api-key': 'REDACTED'
+    'Accept': 'application/json;odata.metadata=minimal'
+    'x-ms-client-request-id': 'dd672ae7-d3d1-11ef-beca-902e1654ba30'
+    'User-Agent': 'azsdk-python-search-documents/11.5.2 Python/3.12.4 (Windows-10-10.0.19045-SP0)'
+No body was attached to the request
+2025-01-16 11:49:39,967 - INFO - Response status: 200
+Response headers:
+    'Transfer-Encoding': 'chunked'
+    'Content-Type': 'application/json; odata.metadata=minimal; odata.streaming=true; charset=utf-8'
+    'Content-Encoding': 'REDACTED'
+    'ETag': '"0x8DD2FB329338881"'
+    'Vary': 'REDACTED'
+    'Server': 'Microsoft-IIS/10.0'
+    'Strict-Transport-Security': 'REDACTED'
+    'Preference-Applied': 'REDACTED'
+    'OData-Version': 'REDACTED'
+    'request-id': 'dd672ae7-d3d1-11ef-beca-902e1654ba30'
+    'elapsed-time': 'REDACTED'
+    'Date': 'Thu, 16 Jan 2025 06:19:39 GMT'
+2025-01-16 11:49:39,979 - INFO - Found existing index: bot-pdf-index
+2025-01-16 11:49:40,035 - WARNING -  * Debugger is active!
+2025-01-16 11:49:40,049 - INFO -  * Debugger PIN: 184-042-685
+2025-01-16 11:49:43,504 - INFO - 127.0.0.1 - - [16/Jan/2025 11:49:43] "GET / HTTP/1.1" 200 -
+2025-01-16 11:49:46,636 - INFO - Request URL: 'https://searchmainai.search.windows.net/indexes('bot-pdf-index')/docs/search.post.search?api-version=REDACTED'
+Request method: 'POST'
+Request headers:
+    'Content-Type': 'application/json'
+    'Content-Length': '205'
+    'api-key': 'REDACTED'
+    'Accept': 'application/json;odata.metadata=none'
+    'x-ms-client-request-id': 'e2140b61-d3d1-11ef-9661-902e1654ba30'
+    'User-Agent': 'azsdk-python-search-documents/11.5.2 Python/3.12.4 (Windows-10-10.0.19045-SP0)'
+A body is sent with the request
+2025-01-16 11:49:48,774 - INFO - Response status: 200
+Response headers:
+    'Transfer-Encoding': 'chunked'
+    'Content-Type': 'application/json; odata.metadata=none; odata.streaming=true; charset=utf-8'
+    'Content-Encoding': 'REDACTED'
+    'Vary': 'REDACTED'
+    'Server': 'Microsoft-IIS/10.0'
+    'Strict-Transport-Security': 'REDACTED'
+    'Preference-Applied': 'REDACTED'
+    'OData-Version': 'REDACTED'
+    'request-id': 'e2140b61-d3d1-11ef-9661-902e1654ba30'
+    'elapsed-time': 'REDACTED'
+    'Date': 'Thu, 16 Jan 2025 06:19:47 GMT'
+2025-01-16 11:49:52,951 - INFO - 127.0.0.1 - - [16/Jan/2025 11:49:52] "POST / HTTP/1.1" 200 -
+2025-01-16 11:50:13,681 - INFO - Request URL: 'https://searchmainai.search.windows.net/indexes('bot-pdf-index')/docs/search.post.search?api-version=REDACTED'
+Request method: 'POST'
+Request headers:
+    'Content-Type': 'application/json'
+    'Content-Length': '166'
+    'api-key': 'REDACTED'
+    'Accept': 'application/json;odata.metadata=none'
+    'x-ms-client-request-id': 'f232c15b-d3d1-11ef-9448-902e1654ba30'
+    'User-Agent': 'azsdk-python-search-documents/11.5.2 Python/3.12.4 (Windows-10-10.0.19045-SP0)'
+A body is sent with the request
+2025-01-16 11:50:17,965 - INFO - Response status: 200
+Response headers:
+    'Transfer-Encoding': 'chunked'
+    'Content-Type': 'application/json; odata.metadata=none; odata.streaming=true; charset=utf-8'
+    'Content-Encoding': 'REDACTED'
+    'Vary': 'REDACTED'
+    'Server': 'Microsoft-IIS/10.0'
+    'Strict-Transport-Security': 'REDACTED'
+    'Preference-Applied': 'REDACTED'
+    'OData-Version': 'REDACTED'
+    'request-id': 'f232c15b-d3d1-11ef-9448-902e1654ba30'
+    'elapsed-time': 'REDACTED'
+    'Date': 'Thu, 16 Jan 2025 06:20:13 GMT'
+2025-01-16 11:50:21,970 - INFO - 127.0.0.1 - - [16/Jan/2025 11:50:21] "POST / HTTP/1.1" 200 -
+2025-01-16 11:50:57,922 - INFO -  * Detected change in 'D:\\Python\\TextGenAIFinal\\TextGenAI\\newapp.py', reloading
+2025-01-16 11:50:58,166 - INFO -  * Restarting with stat
+2025-01-16 11:51:01,967 - WARNING - semantic_settings is not a known attribute of class <class 'azure.search.documents.indexes.models._index.SearchIndex'> and will be ignored
+2025-01-16 11:51:01,967 - INFO - Request URL: 'https://searchmainai.search.windows.net/indexes('bot-pdf-index')?api-version=REDACTED'
+Request method: 'GET'
+Request headers:
+    'api-key': 'REDACTED'
+    'Accept': 'application/json;odata.metadata=minimal'
+    'x-ms-client-request-id': '0efaa9af-d3d2-11ef-b009-902e1654ba30'
+    'User-Agent': 'azsdk-python-search-documents/11.5.2 Python/3.12.4 (Windows-10-10.0.19045-SP0)'
+No body was attached to the request
+2025-01-16 11:51:03,422 - INFO - Response status: 200
+Response headers:
+    'Transfer-Encoding': 'chunked'
+    'Content-Type': 'application/json; odata.metadata=minimal; odata.streaming=true; charset=utf-8'
+    'Content-Encoding': 'REDACTED'
+    'ETag': '"0x8DD2FB329338881"'
+    'Vary': 'REDACTED'
+    'Server': 'Microsoft-IIS/10.0'
+    'Strict-Transport-Security': 'REDACTED'
+    'Preference-Applied': 'REDACTED'
+    'OData-Version': 'REDACTED'
+    'request-id': '0efaa9af-d3d2-11ef-b009-902e1654ba30'
+    'elapsed-time': 'REDACTED'
+    'Date': 'Thu, 16 Jan 2025 06:21:02 GMT'
+2025-01-16 11:51:03,430 - INFO - Found existing index: bot-pdf-index
+2025-01-16 11:51:03,489 - WARNING -  * Debugger is active!
+2025-01-16 11:51:03,501 - INFO -  * Debugger PIN: 184-042-685
+2025-01-16 11:51:05,693 - INFO -  * Detected change in 'D:\\Python\\TextGenAIFinal\\TextGenAI\\newapp.py', reloading
+2025-01-16 11:51:05,912 - INFO -  * Restarting with stat
+2025-01-16 11:51:09,465 - WARNING - semantic_settings is not a known attribute of class <class 'azure.search.documents.indexes.models._index.SearchIndex'> and will be ignored
+2025-01-16 11:51:09,465 - INFO - Request URL: 'https://searchmainai.search.windows.net/indexes('bot-pdf-index')?api-version=REDACTED'
+Request method: 'GET'
+Request headers:
+    'api-key': 'REDACTED'
+    'Accept': 'application/json;odata.metadata=minimal'
+    'x-ms-client-request-id': '1372b70c-d3d2-11ef-aaa5-902e1654ba30'
+    'User-Agent': 'azsdk-python-search-documents/11.5.2 Python/3.12.4 (Windows-10-10.0.19045-SP0)'
+No body was attached to the request
+2025-01-16 11:51:10,492 - INFO - Response status: 200
+Response headers:
+    'Transfer-Encoding': 'chunked'
+    'Content-Type': 'application/json; odata.metadata=minimal; odata.streaming=true; charset=utf-8'
+    'Content-Encoding': 'REDACTED'
+    'ETag': '"0x8DD2FB329338881"'
+    'Vary': 'REDACTED'
+    'Server': 'Microsoft-IIS/10.0'
+    'Strict-Transport-Security': 'REDACTED'
+    'Preference-Applied': 'REDACTED'
+    'OData-Version': 'REDACTED'
+    'request-id': '1372b70c-d3d2-11ef-aaa5-902e1654ba30'
+    'elapsed-time': 'REDACTED'
+    'Date': 'Thu, 16 Jan 2025 06:21:10 GMT'
+2025-01-16 11:51:10,502 - INFO - Found existing index: bot-pdf-index
+2025-01-16 11:51:10,548 - WARNING -  * Debugger is active!
+2025-01-16 11:51:10,559 - INFO -  * Debugger PIN: 184-042-685
+2025-01-16 11:51:29,658 - WARNING - semantic_settings is not a known attribute of class <class 'azure.search.documents.indexes.models._index.SearchIndex'> and will be ignored
+2025-01-16 11:51:29,658 - INFO - Request URL: 'https://searchmainai.search.windows.net/indexes('bot-pdf-index')?api-version=REDACTED'
+Request method: 'GET'
+Request headers:
+    'api-key': 'REDACTED'
+    'Accept': 'application/json;odata.metadata=minimal'
+    'x-ms-client-request-id': '1f7bf8fb-d3d2-11ef-9acf-902e1654ba30'
+    'User-Agent': 'azsdk-python-search-documents/11.5.2 Python/3.12.4 (Windows-10-10.0.19045-SP0)'
+No body was attached to the request
+2025-01-16 11:51:30,865 - INFO - Response status: 200
+Response headers:
+    'Transfer-Encoding': 'chunked'
+    'Content-Type': 'application/json; odata.metadata=minimal; odata.streaming=true; charset=utf-8'
+    'Content-Encoding': 'REDACTED'
+    'ETag': '"0x8DD2FB329338881"'
+    'Vary': 'REDACTED'
+    'Server': 'Microsoft-IIS/10.0'
+    'Strict-Transport-Security': 'REDACTED'
+    'Preference-Applied': 'REDACTED'
+    'OData-Version': 'REDACTED'
+    'request-id': '1f7bf8fb-d3d2-11ef-9acf-902e1654ba30'
+    'elapsed-time': 'REDACTED'
+    'Date': 'Thu, 16 Jan 2025 06:21:30 GMT'
+2025-01-16 11:51:30,870 - INFO - Found existing index: bot-pdf-index
+2025-01-16 11:51:30,923 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://10.4.8.27:5000
+2025-01-16 11:51:30,929 - INFO - [33mPress CTRL+C to quit[0m
+2025-01-16 11:51:30,929 - INFO -  * Restarting with stat
+2025-01-16 11:51:33,855 - WARNING - semantic_settings is not a known attribute of class <class 'azure.search.documents.indexes.models._index.SearchIndex'> and will be ignored
+2025-01-16 11:51:33,857 - INFO - Request URL: 'https://searchmainai.search.windows.net/indexes('bot-pdf-index')?api-version=REDACTED'
+Request method: 'GET'
+Request headers:
+    'api-key': 'REDACTED'
+    'Accept': 'application/json;odata.metadata=minimal'
+    'x-ms-client-request-id': '21fc9b95-d3d2-11ef-b931-902e1654ba30'
+    'User-Agent': 'azsdk-python-search-documents/11.5.2 Python/3.12.4 (Windows-10-10.0.19045-SP0)'
+No body was attached to the request
+2025-01-16 11:51:34,809 - INFO - Response status: 200
+Response headers:
+    'Transfer-Encoding': 'chunked'
+    'Content-Type': 'application/json; odata.metadata=minimal; odata.streaming=true; charset=utf-8'
+    'Content-Encoding': 'REDACTED'
+    'ETag': '"0x8DD2FB329338881"'
+    'Vary': 'REDACTED'
+    'Server': 'Microsoft-IIS/10.0'
+    'Strict-Transport-Security': 'REDACTED'
+    'Preference-Applied': 'REDACTED'
+    'OData-Version': 'REDACTED'
+    'request-id': '21fc9b95-d3d2-11ef-b931-902e1654ba30'
+    'elapsed-time': 'REDACTED'
+    'Date': 'Thu, 16 Jan 2025 06:21:34 GMT'
+2025-01-16 11:51:34,809 - INFO - Found existing index: bot-pdf-index
+2025-01-16 11:51:34,890 - WARNING -  * Debugger is active!
+2025-01-16 11:51:34,914 - INFO -  * Debugger PIN: 184-042-685
+2025-01-16 11:51:35,083 - INFO - 127.0.0.1 - - [16/Jan/2025 11:51:35] "GET / HTTP/1.1" 200 -
+2025-01-16 11:51:38,233 - INFO - 127.0.0.1 - - [16/Jan/2025 11:51:38] "[32mPOST /clear HTTP/1.1[0m" 302 -
+2025-01-16 11:51:38,319 - INFO - 127.0.0.1 - - [16/Jan/2025 11:51:38] "GET / HTTP/1.1" 200 -
+2025-01-16 11:51:38,637 - INFO - 127.0.0.1 - - [16/Jan/2025 11:51:38] "GET / HTTP/1.1" 200 -
+2025-01-16 11:51:48,526 - INFO - Request URL: 'https://searchmainai.search.windows.net/indexes('bot-pdf-index')/docs/search.post.search?api-version=REDACTED'
+Request method: 'POST'
+Request headers:
+    'Content-Type': 'application/json'
+    'Content-Length': '150'
+    'api-key': 'REDACTED'
+    'Accept': 'application/json;odata.metadata=none'
+    'x-ms-client-request-id': '2abb07ce-d3d2-11ef-9751-902e1654ba30'
+    'User-Agent': 'azsdk-python-search-documents/11.5.2 Python/3.12.4 (Windows-10-10.0.19045-SP0)'
+A body is sent with the request
+2025-01-16 11:51:49,786 - INFO - Response status: 200
+Response headers:
+    'Transfer-Encoding': 'chunked'
+    'Content-Type': 'application/json; odata.metadata=none; odata.streaming=true; charset=utf-8'
+    'Content-Encoding': 'REDACTED'
+    'Vary': 'REDACTED'
+    'Server': 'Microsoft-IIS/10.0'
+    'Strict-Transport-Security': 'REDACTED'
+    'Preference-Applied': 'REDACTED'
+    'OData-Version': 'REDACTED'
+    'request-id': '2abb07ce-d3d2-11ef-9751-902e1654ba30'
+    'elapsed-time': 'REDACTED'
+    'Date': 'Thu, 16 Jan 2025 06:21:49 GMT'
+2025-01-16 11:51:51,527 - INFO - 127.0.0.1 - - [16/Jan/2025 11:51:51] "POST / HTTP/1.1" 200 -
+2025-01-16 11:51:59,707 - INFO - Request URL: 'https://searchmainai.search.windows.net/indexes('bot-pdf-index')/docs/search.post.search?api-version=REDACTED'
+Request method: 'POST'
+Request headers:
+    'Content-Type': 'application/json'
+    'Content-Length': '166'
+    'api-key': 'REDACTED'
+    'Accept': 'application/json;odata.metadata=none'
+    'x-ms-client-request-id': '3164ac61-d3d2-11ef-b652-902e1654ba30'
+    'User-Agent': 'azsdk-python-search-documents/11.5.2 Python/3.12.4 (Windows-10-10.0.19045-SP0)'
+A body is sent with the request
+2025-01-16 11:52:03,252 - INFO - Response status: 200
+Response headers:
+    'Transfer-Encoding': 'chunked'
+    'Content-Type': 'application/json; odata.metadata=none; odata.streaming=true; charset=utf-8'
+    'Content-Encoding': 'REDACTED'
+    'Vary': 'REDACTED'
+    'Server': 'Microsoft-IIS/10.0'
+    'Strict-Transport-Security': 'REDACTED'
+    'Preference-Applied': 'REDACTED'
+    'OData-Version': 'REDACTED'
+    'request-id': '3164ac61-d3d2-11ef-b652-902e1654ba30'
+    'elapsed-time': 'REDACTED'
+    'Date': 'Thu, 16 Jan 2025 06:21:59 GMT'
+2025-01-16 11:52:05,989 - INFO - 127.0.0.1 - - [16/Jan/2025 11:52:05] "POST / HTTP/1.1" 200 -
+2025-01-16 11:52:24,291 - INFO - 127.0.0.1 - - [16/Jan/2025 11:52:24] "[32mPOST /clear HTTP/1.1[0m" 302 -
+2025-01-16 11:52:25,012 - INFO - 127.0.0.1 - - [16/Jan/2025 11:52:25] "GET / HTTP/1.1" 200 -
+2025-01-16 11:52:25,364 - INFO - 127.0.0.1 - - [16/Jan/2025 11:52:25] "GET / HTTP/1.1" 200 -
+2025-01-16 11:52:31,996 - INFO - Request URL: 'https://searchmainai.search.windows.net/indexes('bot-pdf-index')/docs/search.post.search?api-version=REDACTED'
+Request method: 'POST'
+Request headers:
+    'Content-Type': 'application/json'
+    'Content-Length': '205'
+    'api-key': 'REDACTED'
+    'Accept': 'application/json;odata.metadata=none'
+    'x-ms-client-request-id': '44a4091c-d3d2-11ef-bbd9-902e1654ba30'
+    'User-Agent': 'azsdk-python-search-documents/11.5.2 Python/3.12.4 (Windows-10-10.0.19045-SP0)'
+A body is sent with the request
+2025-01-16 11:52:32,382 - INFO - Response status: 200
+Response headers:
+    'Transfer-Encoding': 'chunked'
+    'Content-Type': 'application/json; odata.metadata=none; odata.streaming=true; charset=utf-8'
+    'Content-Encoding': 'REDACTED'
+    'Vary': 'REDACTED'
+    'Server': 'Microsoft-IIS/10.0'
+    'Strict-Transport-Security': 'REDACTED'
+    'Preference-Applied': 'REDACTED'
+    'OData-Version': 'REDACTED'
+    'request-id': '44a4091c-d3d2-11ef-bbd9-902e1654ba30'
+    'elapsed-time': 'REDACTED'
+    'Date': 'Thu, 16 Jan 2025 06:22:31 GMT'
+2025-01-16 11:52:36,383 - INFO - 127.0.0.1 - - [16/Jan/2025 11:52:36] "POST / HTTP/1.1" 200 -
+2025-01-16 11:52:56,764 - INFO - 127.0.0.1 - - [16/Jan/2025 11:52:56] "[32mPOST /clear HTTP/1.1[0m" 302 -
+2025-01-16 11:52:56,898 - INFO - 127.0.0.1 - - [16/Jan/2025 11:52:56] "GET / HTTP/1.1" 200 -
+2025-01-16 11:53:29,999 - INFO -  * Detected change in 'D:\\Python\\TextGenAIFinal\\TextGenAI\\newapp.py', reloading
+2025-01-16 11:53:30,230 - INFO -  * Restarting with stat
+2025-01-16 11:53:33,881 - WARNING - semantic_settings is not a known attribute of class <class 'azure.search.documents.indexes.models._index.SearchIndex'> and will be ignored
+2025-01-16 11:53:33,887 - INFO - Request URL: 'https://searchmainai.search.windows.net/indexes('bot-pdf-index')?api-version=REDACTED'
+Request method: 'GET'
+Request headers:
+    'api-key': 'REDACTED'
+    'Accept': 'application/json;odata.metadata=minimal'
+    'x-ms-client-request-id': '6987bfce-d3d2-11ef-a0ae-902e1654ba30'
+    'User-Agent': 'azsdk-python-search-documents/11.5.2 Python/3.12.4 (Windows-10-10.0.19045-SP0)'
+No body was attached to the request
+2025-01-16 11:53:36,613 - INFO - Response status: 200
+Response headers:
+    'Transfer-Encoding': 'chunked'
+    'Content-Type': 'application/json; odata.metadata=minimal; odata.streaming=true; charset=utf-8'
+    'Content-Encoding': 'REDACTED'
+    'ETag': '"0x8DD2FB329338881"'
+    'Vary': 'REDACTED'
+    'Server': 'Microsoft-IIS/10.0'
+    'Strict-Transport-Security': 'REDACTED'
+    'Preference-Applied': 'REDACTED'
+    'OData-Version': 'REDACTED'
+    'request-id': '6987bfce-d3d2-11ef-a0ae-902e1654ba30'
+    'elapsed-time': 'REDACTED'
+    'Date': 'Thu, 16 Jan 2025 06:23:36 GMT'
+2025-01-16 11:53:36,621 - INFO - Found existing index: bot-pdf-index
+2025-01-16 11:53:36,687 - WARNING -  * Debugger is active!
+2025-01-16 11:53:36,706 - INFO -  * Debugger PIN: 184-042-685
+2025-01-16 11:53:38,897 - INFO -  * Detected change in 'D:\\Python\\TextGenAIFinal\\TextGenAI\\newapp.py', reloading
+2025-01-16 11:53:39,116 - INFO -  * Restarting with stat
+2025-01-16 11:53:42,588 - WARNING - semantic_settings is not a known attribute of class <class 'azure.search.documents.indexes.models._index.SearchIndex'> and will be ignored
+2025-01-16 11:53:42,591 - INFO - Request URL: 'https://searchmainai.search.windows.net/indexes('bot-pdf-index')?api-version=REDACTED'
+Request method: 'GET'
+Request headers:
+    'api-key': 'REDACTED'
+    'Accept': 'application/json;odata.metadata=minimal'
+    'x-ms-client-request-id': '6eb7e1fd-d3d2-11ef-8a61-902e1654ba30'
+    'User-Agent': 'azsdk-python-search-documents/11.5.2 Python/3.12.4 (Windows-10-10.0.19045-SP0)'
+No body was attached to the request
+2025-01-16 11:53:51,820 - WARNING - semantic_settings is not a known attribute of class <class 'azure.search.documents.indexes.models._index.SearchIndex'> and will be ignored
+2025-01-16 11:53:51,820 - INFO - Request URL: 'https://searchmainai.search.windows.net/indexes('bot-pdf-index')?api-version=REDACTED'
+Request method: 'GET'
+Request headers:
+    'api-key': 'REDACTED'
+    'Accept': 'application/json;odata.metadata=minimal'
+    'x-ms-client-request-id': '74382939-d3d2-11ef-a3fa-902e1654ba30'
+    'User-Agent': 'azsdk-python-search-documents/11.5.2 Python/3.12.4 (Windows-10-10.0.19045-SP0)'
+No body was attached to the request
+2025-01-16 11:53:52,940 - INFO - Response status: 200
+Response headers:
+    'Transfer-Encoding': 'chunked'
+    'Content-Type': 'application/json; odata.metadata=minimal; odata.streaming=true; charset=utf-8'
+    'Content-Encoding': 'REDACTED'
+    'ETag': '"0x8DD2FB329338881"'
+    'Vary': 'REDACTED'
+    'Server': 'Microsoft-IIS/10.0'
+    'Strict-Transport-Security': 'REDACTED'
+    'Preference-Applied': 'REDACTED'
+    'OData-Version': 'REDACTED'
+    'request-id': '74382939-d3d2-11ef-a3fa-902e1654ba30'
+    'elapsed-time': 'REDACTED'
+    'Date': 'Thu, 16 Jan 2025 06:23:52 GMT'
+2025-01-16 11:53:52,952 - INFO - Found existing index: bot-pdf-index
+2025-01-16 11:53:53,089 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://10.4.8.27:5000
+2025-01-16 11:53:53,093 - INFO - [33mPress CTRL+C to quit[0m
+2025-01-16 11:53:53,100 - INFO -  * Restarting with stat
+2025-01-16 11:53:56,337 - WARNING - semantic_settings is not a known attribute of class <class 'azure.search.documents.indexes.models._index.SearchIndex'> and will be ignored
+2025-01-16 11:53:56,337 - INFO - Request URL: 'https://searchmainai.search.windows.net/indexes('bot-pdf-index')?api-version=REDACTED'
+Request method: 'GET'
+Request headers:
+    'api-key': 'REDACTED'
+    'Accept': 'application/json;odata.metadata=minimal'
+    'x-ms-client-request-id': '76e952c9-d3d2-11ef-b5d6-902e1654ba30'
+    'User-Agent': 'azsdk-python-search-documents/11.5.2 Python/3.12.4 (Windows-10-10.0.19045-SP0)'
+No body was attached to the request
+2025-01-16 11:53:57,262 - INFO - Response status: 200
+Response headers:
+    'Transfer-Encoding': 'chunked'
+    'Content-Type': 'application/json; odata.metadata=minimal; odata.streaming=true; charset=utf-8'
+    'Content-Encoding': 'REDACTED'
+    'ETag': '"0x8DD2FB329338881"'
+    'Vary': 'REDACTED'
+    'Server': 'Microsoft-IIS/10.0'
+    'Strict-Transport-Security': 'REDACTED'
+    'Preference-Applied': 'REDACTED'
+    'OData-Version': 'REDACTED'
+    'request-id': '76e952c9-d3d2-11ef-b5d6-902e1654ba30'
+    'elapsed-time': 'REDACTED'
+    'Date': 'Thu, 16 Jan 2025 06:23:56 GMT'
+2025-01-16 11:53:57,270 - INFO - Found existing index: bot-pdf-index
+2025-01-16 11:53:57,335 - WARNING -  * Debugger is active!
+2025-01-16 11:53:57,348 - INFO -  * Debugger PIN: 184-042-685
+2025-01-16 11:54:06,243 - INFO - 127.0.0.1 - - [16/Jan/2025 11:54:06] "GET / HTTP/1.1" 200 -
+2025-01-16 11:54:10,117 - INFO - Request URL: 'https://searchmainai.search.windows.net/indexes('bot-pdf-index')/docs/search.post.search?api-version=REDACTED'
+Request method: 'POST'
+Request headers:
+    'Content-Type': 'application/json'
+    'Content-Length': '150'
+    'api-key': 'REDACTED'
+    'Accept': 'application/json;odata.metadata=none'
+    'x-ms-client-request-id': '7f1fede7-d3d2-11ef-9474-902e1654ba30'
+    'User-Agent': 'azsdk-python-search-documents/11.5.2 Python/3.12.4 (Windows-10-10.0.19045-SP0)'
+A body is sent with the request
+2025-01-16 11:54:11,191 - INFO - Response status: 200
+Response headers:
+    'Transfer-Encoding': 'chunked'
+    'Content-Type': 'application/json; odata.metadata=none; odata.streaming=true; charset=utf-8'
+    'Content-Encoding': 'REDACTED'
+    'Vary': 'REDACTED'
+    'Server': 'Microsoft-IIS/10.0'
+    'Strict-Transport-Security': 'REDACTED'
+    'Preference-Applied': 'REDACTED'
+    'OData-Version': 'REDACTED'
+    'request-id': '7f1fede7-d3d2-11ef-9474-902e1654ba30'
+    'elapsed-time': 'REDACTED'
+    'Date': 'Thu, 16 Jan 2025 06:24:11 GMT'
+2025-01-16 11:54:12,985 - INFO - 127.0.0.1 - - [16/Jan/2025 11:54:12] "POST / HTTP/1.1" 200 -
+2025-01-16 11:54:19,245 - INFO - Request URL: 'https://searchmainai.search.windows.net/indexes('bot-pdf-index')/docs/search.post.search?api-version=REDACTED'
+Request method: 'POST'
+Request headers:
+    'Content-Type': 'application/json'
+    'Content-Length': '166'
+    'api-key': 'REDACTED'
+    'Accept': 'application/json;odata.metadata=none'
+    'x-ms-client-request-id': '8490efdf-d3d2-11ef-a6b9-902e1654ba30'
+    'User-Agent': 'azsdk-python-search-documents/11.5.2 Python/3.12.4 (Windows-10-10.0.19045-SP0)'
+A body is sent with the request
+2025-01-16 11:54:22,712 - INFO - Response status: 200
+Response headers:
+    'Transfer-Encoding': 'chunked'
+    'Content-Type': 'application/json; odata.metadata=none; odata.streaming=true; charset=utf-8'
+    'Content-Encoding': 'REDACTED'
+    'Vary': 'REDACTED'
+    'Server': 'Microsoft-IIS/10.0'
+    'Strict-Transport-Security': 'REDACTED'
+    'Preference-Applied': 'REDACTED'
+    'OData-Version': 'REDACTED'
+    'request-id': '8490efdf-d3d2-11ef-a6b9-902e1654ba30'
+    'elapsed-time': 'REDACTED'
+    'Date': 'Thu, 16 Jan 2025 06:24:19 GMT'
+2025-01-16 11:54:25,179 - INFO - 127.0.0.1 - - [16/Jan/2025 11:54:25] "POST / HTTP/1.1" 200 -
+2025-01-16 11:54:34,901 - INFO - Request URL: 'https://searchmainai.search.windows.net/indexes('bot-pdf-index')/docs/search.post.search?api-version=REDACTED'
+Request method: 'POST'
+Request headers:
+    'Content-Type': 'application/json'
+    'Content-Length': '205'
+    'api-key': 'REDACTED'
+    'Accept': 'application/json;odata.metadata=none'
+    'x-ms-client-request-id': '8de5bbe4-d3d2-11ef-87c6-902e1654ba30'
+    'User-Agent': 'azsdk-python-search-documents/11.5.2 Python/3.12.4 (Windows-10-10.0.19045-SP0)'
+A body is sent with the request
+2025-01-16 11:54:35,236 - INFO - Response status: 200
+Response headers:
+    'Transfer-Encoding': 'chunked'
+    'Content-Type': 'application/json; odata.metadata=none; odata.streaming=true; charset=utf-8'
+    'Content-Encoding': 'REDACTED'
+    'Vary': 'REDACTED'
+    'Server': 'Microsoft-IIS/10.0'
+    'Strict-Transport-Security': 'REDACTED'
+    'Preference-Applied': 'REDACTED'
+    'OData-Version': 'REDACTED'
+    'request-id': '8de5bbe4-d3d2-11ef-87c6-902e1654ba30'
+    'elapsed-time': 'REDACTED'
+    'Date': 'Thu, 16 Jan 2025 06:24:35 GMT'
+2025-01-16 11:54:39,018 - INFO - 127.0.0.1 - - [16/Jan/2025 11:54:39] "POST / HTTP/1.1" 200 -
+2025-01-16 11:55:05,092 - INFO - Request URL: 'https://searchmainai.search.windows.net/indexes('bot-pdf-index')/docs/search.post.search?api-version=REDACTED'
+Request method: 'POST'
+Request headers:
+    'Content-Type': 'application/json'
+    'Content-Length': '173'
+    'api-key': 'REDACTED'
+    'Accept': 'application/json;odata.metadata=none'
+    'x-ms-client-request-id': '9fe4690d-d3d2-11ef-8ded-902e1654ba30'
+    'User-Agent': 'azsdk-python-search-documents/11.5.2 Python/3.12.4 (Windows-10-10.0.19045-SP0)'
+A body is sent with the request
+2025-01-16 11:55:05,457 - INFO - Response status: 200
+Response headers:
+    'Transfer-Encoding': 'chunked'
+    'Content-Type': 'application/json; odata.metadata=none; odata.streaming=true; charset=utf-8'
+    'Content-Encoding': 'REDACTED'
+    'Vary': 'REDACTED'
+    'Server': 'Microsoft-IIS/10.0'
+    'Strict-Transport-Security': 'REDACTED'
+    'Preference-Applied': 'REDACTED'
+    'OData-Version': 'REDACTED'
+    'request-id': '9fe4690d-d3d2-11ef-8ded-902e1654ba30'
+    'elapsed-time': 'REDACTED'
+    'Date': 'Thu, 16 Jan 2025 06:25:05 GMT'
+2025-01-16 11:55:08,008 - INFO - 127.0.0.1 - - [16/Jan/2025 11:55:08] "POST / HTTP/1.1" 200 -
+2025-01-16 11:55:24,729 - INFO - 127.0.0.1 - - [16/Jan/2025 11:55:24] "[32mPOST /clear HTTP/1.1[0m" 302 -
+2025-01-16 11:55:24,930 - INFO - 127.0.0.1 - - [16/Jan/2025 11:55:24] "GET / HTTP/1.1" 200 -
+2025-01-16 11:55:25,441 - INFO - 127.0.0.1 - - [16/Jan/2025 11:55:25] "GET / HTTP/1.1" 200 -
+2025-01-16 11:55:30,957 - INFO -  * Detected change in 'D:\\Python\\TextGenAIFinal\\TextGenAI\\newapp.py', reloading
+2025-01-16 11:55:31,364 - INFO -  * Restarting with stat
+2025-01-16 11:55:35,310 - WARNING - semantic_settings is not a known attribute of class <class 'azure.search.documents.indexes.models._index.SearchIndex'> and will be ignored
+2025-01-16 11:55:35,312 - INFO - Request URL: 'https://searchmainai.search.windows.net/indexes('bot-pdf-index')?api-version=REDACTED'
+Request method: 'GET'
+Request headers:
+    'api-key': 'REDACTED'
+    'Accept': 'application/json;odata.metadata=minimal'
+    'x-ms-client-request-id': 'b1e7b3bc-d3d2-11ef-b96c-902e1654ba30'
+    'User-Agent': 'azsdk-python-search-documents/11.5.2 Python/3.12.4 (Windows-10-10.0.19045-SP0)'
+No body was attached to the request
+2025-01-16 11:55:36,523 - INFO - Response status: 200
+Response headers:
+    'Transfer-Encoding': 'chunked'
+    'Content-Type': 'application/json; odata.metadata=minimal; odata.streaming=true; charset=utf-8'
+    'Content-Encoding': 'REDACTED'
+    'ETag': '"0x8DD2FB329338881"'
+    'Vary': 'REDACTED'
+    'Server': 'Microsoft-IIS/10.0'
+    'Strict-Transport-Security': 'REDACTED'
+    'Preference-Applied': 'REDACTED'
+    'OData-Version': 'REDACTED'
+    'request-id': 'b1e7b3bc-d3d2-11ef-b96c-902e1654ba30'
+    'elapsed-time': 'REDACTED'
+    'Date': 'Thu, 16 Jan 2025 06:25:36 GMT'
+2025-01-16 11:55:36,536 - INFO - Found existing index: bot-pdf-index
+2025-01-16 11:55:36,603 - WARNING -  * Debugger is active!
+2025-01-16 11:55:36,624 - INFO -  * Debugger PIN: 184-042-685
+2025-01-16 11:55:37,776 - INFO -  * Detected change in 'D:\\Python\\TextGenAIFinal\\TextGenAI\\newapp.py', reloading
+2025-01-16 11:55:38,061 - INFO -  * Restarting with stat
+2025-01-16 11:55:41,826 - WARNING - semantic_settings is not a known attribute of class <class 'azure.search.documents.indexes.models._index.SearchIndex'> and will be ignored
+2025-01-16 11:55:41,826 - INFO - Request URL: 'https://searchmainai.search.windows.net/indexes('bot-pdf-index')?api-version=REDACTED'
+Request method: 'GET'
+Request headers:
+    'api-key': 'REDACTED'
+    'Accept': 'application/json;odata.metadata=minimal'
+    'x-ms-client-request-id': 'b5c9af64-d3d2-11ef-bee5-902e1654ba30'
+    'User-Agent': 'azsdk-python-search-documents/11.5.2 Python/3.12.4 (Windows-10-10.0.19045-SP0)'
+No body was attached to the request
+2025-01-16 11:55:42,872 - INFO - Response status: 200
+Response headers:
+    'Transfer-Encoding': 'chunked'
+    'Content-Type': 'application/json; odata.metadata=minimal; odata.streaming=true; charset=utf-8'
+    'Content-Encoding': 'REDACTED'
+    'ETag': '"0x8DD2FB329338881"'
+    'Vary': 'REDACTED'
+    'Server': 'Microsoft-IIS/10.0'
+    'Strict-Transport-Security': 'REDACTED'
+    'Preference-Applied': 'REDACTED'
+    'OData-Version': 'REDACTED'
+    'request-id': 'b5c9af64-d3d2-11ef-bee5-902e1654ba30'
+    'elapsed-time': 'REDACTED'
+    'Date': 'Thu, 16 Jan 2025 06:25:41 GMT'
+2025-01-16 11:55:42,880 - INFO - Found existing index: bot-pdf-index
+2025-01-16 11:55:42,936 - WARNING -  * Debugger is active!
+2025-01-16 11:55:42,952 - INFO -  * Debugger PIN: 184-042-685
+2025-01-16 11:59:16,341 - WARNING - semantic_settings is not a known attribute of class <class 'azure.search.documents.indexes.models._index.SearchIndex'> and will be ignored
+2025-01-16 11:59:16,343 - INFO - Request URL: 'https://searchmainai.search.windows.net/indexes('bot-pdf-index')?api-version=REDACTED'
+Request method: 'GET'
+Request headers:
+    'api-key': 'REDACTED'
+    'Accept': 'application/json;odata.metadata=minimal'
+    'x-ms-client-request-id': '35a65219-d3d3-11ef-bf65-902e1654ba30'
+    'User-Agent': 'azsdk-python-search-documents/11.5.2 Python/3.12.4 (Windows-10-10.0.19045-SP0)'
+No body was attached to the request
+2025-01-16 11:59:17,708 - INFO - Response status: 200
+Response headers:
+    'Transfer-Encoding': 'chunked'
+    'Content-Type': 'application/json; odata.metadata=minimal; odata.streaming=true; charset=utf-8'
+    'Content-Encoding': 'REDACTED'
+    'ETag': '"0x8DD2FB329338881"'
+    'Vary': 'REDACTED'
+    'Server': 'Microsoft-IIS/10.0'
+    'Strict-Transport-Security': 'REDACTED'
+    'Preference-Applied': 'REDACTED'
+    'OData-Version': 'REDACTED'
+    'request-id': '35a65219-d3d3-11ef-bf65-902e1654ba30'
+    'elapsed-time': 'REDACTED'
+    'Date': 'Thu, 16 Jan 2025 06:29:17 GMT'
+2025-01-16 11:59:17,715 - INFO - Found existing index: bot-pdf-index
+2025-01-16 11:59:17,800 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://10.4.8.27:5000
+2025-01-16 11:59:17,809 - INFO - [33mPress CTRL+C to quit[0m
+2025-01-16 11:59:17,813 - INFO -  * Restarting with stat
+2025-01-16 11:59:21,322 - WARNING - semantic_settings is not a known attribute of class <class 'azure.search.documents.indexes.models._index.SearchIndex'> and will be ignored
+2025-01-16 11:59:21,324 - INFO - Request URL: 'https://searchmainai.search.windows.net/indexes('bot-pdf-index')?api-version=REDACTED'
+Request method: 'GET'
+Request headers:
+    'api-key': 'REDACTED'
+    'Accept': 'application/json;odata.metadata=minimal'
+    'x-ms-client-request-id': '389e743d-d3d3-11ef-b5b5-902e1654ba30'
+    'User-Agent': 'azsdk-python-search-documents/11.5.2 Python/3.12.4 (Windows-10-10.0.19045-SP0)'
+No body was attached to the request
+2025-01-16 11:59:22,521 - INFO - Response status: 200
+Response headers:
+    'Transfer-Encoding': 'chunked'
+    'Content-Type': 'application/json; odata.metadata=minimal; odata.streaming=true; charset=utf-8'
+    'Content-Encoding': 'REDACTED'
+    'ETag': '"0x8DD2FB329338881"'
+    'Vary': 'REDACTED'
+    'Server': 'Microsoft-IIS/10.0'
+    'Strict-Transport-Security': 'REDACTED'
+    'Preference-Applied': 'REDACTED'
+    'OData-Version': 'REDACTED'
+    'request-id': '389e743d-d3d3-11ef-b5b5-902e1654ba30'
+    'elapsed-time': 'REDACTED'
+    'Date': 'Thu, 16 Jan 2025 06:29:22 GMT'
+2025-01-16 11:59:22,532 - INFO - Found existing index: bot-pdf-index
+2025-01-16 11:59:22,584 - WARNING -  * Debugger is active!
+2025-01-16 11:59:22,602 - INFO -  * Debugger PIN: 184-042-685
+2025-01-16 11:59:22,727 - INFO -  * Detected change in 'D:\\Python\\TextGenAIFinal\\TextGenAI\\newapp.py', reloading
+2025-01-16 11:59:22,945 - INFO -  * Restarting with stat
+2025-01-16 11:59:29,478 - WARNING - semantic_settings is not a known attribute of class <class 'azure.search.documents.indexes.models._index.SearchIndex'> and will be ignored
+2025-01-16 11:59:29,478 - INFO - Request URL: 'https://searchmainai.search.windows.net/indexes('bot-pdf-index')?api-version=REDACTED'
+Request method: 'GET'
+Request headers:
+    'api-key': 'REDACTED'
+    'Accept': 'application/json;odata.metadata=minimal'
+    'x-ms-client-request-id': '3d7a9a8c-d3d3-11ef-9974-902e1654ba30'
+    'User-Agent': 'azsdk-python-search-documents/11.5.2 Python/3.12.4 (Windows-10-10.0.19045-SP0)'
+No body was attached to the request
+2025-01-16 11:59:30,708 - INFO - Response status: 200
+Response headers:
+    'Transfer-Encoding': 'chunked'
+    'Content-Type': 'application/json; odata.metadata=minimal; odata.streaming=true; charset=utf-8'
+    'Content-Encoding': 'REDACTED'
+    'ETag': '"0x8DD2FB329338881"'
+    'Vary': 'REDACTED'
+    'Server': 'Microsoft-IIS/10.0'
+    'Strict-Transport-Security': 'REDACTED'
+    'Preference-Applied': 'REDACTED'
+    'OData-Version': 'REDACTED'
+    'request-id': '3d7a9a8c-d3d3-11ef-9974-902e1654ba30'
+    'elapsed-time': 'REDACTED'
+    'Date': 'Thu, 16 Jan 2025 06:29:30 GMT'
+2025-01-16 11:59:30,717 - INFO - Found existing index: bot-pdf-index
+2025-01-16 11:59:30,801 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://10.4.8.27:5000
+2025-01-16 11:59:30,809 - INFO - [33mPress CTRL+C to quit[0m
+2025-01-16 11:59:30,809 - INFO -  * Restarting with stat
+2025-01-16 11:59:34,633 - WARNING - semantic_settings is not a known attribute of class <class 'azure.search.documents.indexes.models._index.SearchIndex'> and will be ignored
+2025-01-16 11:59:34,633 - INFO - Request URL: 'https://searchmainai.search.windows.net/indexes('bot-pdf-index')?api-version=REDACTED'
+Request method: 'GET'
+Request headers:
+    'api-key': 'REDACTED'
+    'Accept': 'application/json;odata.metadata=minimal'
+    'x-ms-client-request-id': '408d51ee-d3d3-11ef-8a94-902e1654ba30'
+    'User-Agent': 'azsdk-python-search-documents/11.5.2 Python/3.12.4 (Windows-10-10.0.19045-SP0)'
+No body was attached to the request
+2025-01-16 11:59:35,549 - INFO - Response status: 200
+Response headers:
+    'Transfer-Encoding': 'chunked'
+    'Content-Type': 'application/json; odata.metadata=minimal; odata.streaming=true; charset=utf-8'
+    'Content-Encoding': 'REDACTED'
+    'ETag': '"0x8DD2FB329338881"'
+    'Vary': 'REDACTED'
+    'Server': 'Microsoft-IIS/10.0'
+    'Strict-Transport-Security': 'REDACTED'
+    'Preference-Applied': 'REDACTED'
+    'OData-Version': 'REDACTED'
+    'request-id': '408d51ee-d3d3-11ef-8a94-902e1654ba30'
+    'elapsed-time': 'REDACTED'
+    'Date': 'Thu, 16 Jan 2025 06:29:35 GMT'
+2025-01-16 11:59:35,558 - INFO - Found existing index: bot-pdf-index
+2025-01-16 11:59:35,637 - WARNING -  * Debugger is active!
+2025-01-16 11:59:35,650 - INFO -  * Debugger PIN: 184-042-685
+2025-01-16 11:59:35,769 - INFO - 127.0.0.1 - - [16/Jan/2025 11:59:35] "GET / HTTP/1.1" 200 -
+2025-01-16 11:59:41,691 - INFO - Request URL: 'https://searchmainai.search.windows.net/indexes('bot-pdf-index')/docs/search.post.search?api-version=REDACTED'
+Request method: 'POST'
+Request headers:
+    'Content-Type': 'application/json'
+    'Content-Length': '150'
+    'api-key': 'REDACTED'
+    'Accept': 'application/json;odata.metadata=none'
+    'x-ms-client-request-id': '44c24631-d3d3-11ef-923c-902e1654ba30'
+    'User-Agent': 'azsdk-python-search-documents/11.5.2 Python/3.12.4 (Windows-10-10.0.19045-SP0)'
+A body is sent with the request
+2025-01-16 11:59:42,901 - INFO - Response status: 200
+Response headers:
+    'Transfer-Encoding': 'chunked'
+    'Content-Type': 'application/json; odata.metadata=none; odata.streaming=true; charset=utf-8'
+    'Content-Encoding': 'REDACTED'
+    'Vary': 'REDACTED'
+    'Server': 'Microsoft-IIS/10.0'
+    'Strict-Transport-Security': 'REDACTED'
+    'Preference-Applied': 'REDACTED'
+    'OData-Version': 'REDACTED'
+    'request-id': '44c24631-d3d3-11ef-923c-902e1654ba30'
+    'elapsed-time': 'REDACTED'
+    'Date': 'Thu, 16 Jan 2025 06:29:42 GMT'
+2025-01-16 11:59:44,710 - INFO - 127.0.0.1 - - [16/Jan/2025 11:59:44] "POST / HTTP/1.1" 200 -
+2025-01-16 11:59:52,857 - INFO - Request URL: 'https://searchmainai.search.windows.net/indexes('bot-pdf-index')/docs/search.post.search?api-version=REDACTED'
+Request method: 'POST'
+Request headers:
+    'Content-Type': 'application/json'
+    'Content-Length': '166'
+    'api-key': 'REDACTED'
+    'Accept': 'application/json;odata.metadata=none'
+    'x-ms-client-request-id': '4b6a169f-d3d3-11ef-baac-902e1654ba30'
+    'User-Agent': 'azsdk-python-search-documents/11.5.2 Python/3.12.4 (Windows-10-10.0.19045-SP0)'
+A body is sent with the request
+2025-01-16 11:59:55,917 - INFO - Response status: 200
+Response headers:
+    'Transfer-Encoding': 'chunked'
+    'Content-Type': 'application/json; odata.metadata=none; odata.streaming=true; charset=utf-8'
+    'Content-Encoding': 'REDACTED'
+    'Vary': 'REDACTED'
+    'Server': 'Microsoft-IIS/10.0'
+    'Strict-Transport-Security': 'REDACTED'
+    'Preference-Applied': 'REDACTED'
+    'OData-Version': 'REDACTED'
+    'request-id': '4b6a169f-d3d3-11ef-baac-902e1654ba30'
+    'elapsed-time': 'REDACTED'
+    'Date': 'Thu, 16 Jan 2025 06:29:52 GMT'
+2025-01-16 11:59:57,549 - INFO - 127.0.0.1 - - [16/Jan/2025 11:59:57] "POST / HTTP/1.1" 200 -
+2025-01-16 12:00:04,070 - INFO - Request URL: 'https://searchmainai.search.windows.net/indexes('bot-pdf-index')/docs/search.post.search?api-version=REDACTED'
+Request method: 'POST'
+Request headers:
+    'Content-Type': 'application/json'
+    'Content-Length': '205'
+    'api-key': 'REDACTED'
+    'Accept': 'application/json;odata.metadata=none'
+    'x-ms-client-request-id': '5218fd27-d3d3-11ef-a120-902e1654ba30'
+    'User-Agent': 'azsdk-python-search-documents/11.5.2 Python/3.12.4 (Windows-10-10.0.19045-SP0)'
+A body is sent with the request
+2025-01-16 12:00:04,399 - INFO - Response status: 200
+Response headers:
+    'Transfer-Encoding': 'chunked'
+    'Content-Type': 'application/json; odata.metadata=none; odata.streaming=true; charset=utf-8'
+    'Content-Encoding': 'REDACTED'
+    'Vary': 'REDACTED'
+    'Server': 'Microsoft-IIS/10.0'
+    'Strict-Transport-Security': 'REDACTED'
+    'Preference-Applied': 'REDACTED'
+    'OData-Version': 'REDACTED'
+    'request-id': '5218fd27-d3d3-11ef-a120-902e1654ba30'
+    'elapsed-time': 'REDACTED'
+    'Date': 'Thu, 16 Jan 2025 06:30:04 GMT'
+2025-01-16 12:00:08,941 - INFO - 127.0.0.1 - - [16/Jan/2025 12:00:08] "POST / HTTP/1.1" 200 -
+2025-01-16 12:00:37,579 - INFO - Request URL: 'https://searchmainai.search.windows.net/indexes('bot-pdf-index')/docs/search.post.search?api-version=REDACTED'
+Request method: 'POST'
+Request headers:
+    'Content-Type': 'application/json'
+    'Content-Length': '183'
+    'api-key': 'REDACTED'
+    'Accept': 'application/json;odata.metadata=none'
+    'x-ms-client-request-id': '6611fc59-d3d3-11ef-b9b2-902e1654ba30'
+    'User-Agent': 'azsdk-python-search-documents/11.5.2 Python/3.12.4 (Windows-10-10.0.19045-SP0)'
+A body is sent with the request
+2025-01-16 12:00:37,975 - INFO - Response status: 200
+Response headers:
+    'Transfer-Encoding': 'chunked'
+    'Content-Type': 'application/json; odata.metadata=none; odata.streaming=true; charset=utf-8'
+    'Content-Encoding': 'REDACTED'
+    'Vary': 'REDACTED'
+    'Server': 'Microsoft-IIS/10.0'
+    'Strict-Transport-Security': 'REDACTED'
+    'Preference-Applied': 'REDACTED'
+    'OData-Version': 'REDACTED'
+    'request-id': '6611fc59-d3d3-11ef-b9b2-902e1654ba30'
+    'elapsed-time': 'REDACTED'
+    'Date': 'Thu, 16 Jan 2025 06:30:37 GMT'
+2025-01-16 12:00:40,578 - INFO - 127.0.0.1 - - [16/Jan/2025 12:00:40] "POST / HTTP/1.1" 200 -
+2025-01-16 12:00:53,383 - INFO - Request URL: 'https://searchmainai.search.windows.net/indexes('bot-pdf-index')/docs/search.post.search?api-version=REDACTED'
+Request method: 'POST'
+Request headers:
+    'Content-Type': 'application/json'
+    'Content-Length': '173'
+    'api-key': 'REDACTED'
+    'Accept': 'application/json;odata.metadata=none'
+    'x-ms-client-request-id': '6f7d8e5a-d3d3-11ef-9042-902e1654ba30'
+    'User-Agent': 'azsdk-python-search-documents/11.5.2 Python/3.12.4 (Windows-10-10.0.19045-SP0)'
+A body is sent with the request
+2025-01-16 12:00:53,875 - INFO - Response status: 200
+Response headers:
+    'Transfer-Encoding': 'chunked'
+    'Content-Type': 'application/json; odata.metadata=none; odata.streaming=true; charset=utf-8'
+    'Content-Encoding': 'REDACTED'
+    'Vary': 'REDACTED'
+    'Server': 'Microsoft-IIS/10.0'
+    'Strict-Transport-Security': 'REDACTED'
+    'Preference-Applied': 'REDACTED'
+    'OData-Version': 'REDACTED'
+    'request-id': '6f7d8e5a-d3d3-11ef-9042-902e1654ba30'
+    'elapsed-time': 'REDACTED'
+    'Date': 'Thu, 16 Jan 2025 06:30:52 GMT'
+2025-01-16 12:00:56,936 - INFO - 127.0.0.1 - - [16/Jan/2025 12:00:56] "POST / HTTP/1.1" 200 -
+2025-01-16 12:01:03,423 - INFO - Request URL: 'https://searchmainai.search.windows.net/indexes('bot-pdf-index')/docs/search.post.search?api-version=REDACTED'
+Request method: 'POST'
+Request headers:
+    'Content-Type': 'application/json'
+    'Content-Length': '173'
+    'api-key': 'REDACTED'
+    'Accept': 'application/json;odata.metadata=none'
+    'x-ms-client-request-id': '75797f44-d3d3-11ef-addc-902e1654ba30'
+    'User-Agent': 'azsdk-python-search-documents/11.5.2 Python/3.12.4 (Windows-10-10.0.19045-SP0)'
+A body is sent with the request
+2025-01-16 12:01:03,810 - INFO - Response status: 200
+Response headers:
+    'Transfer-Encoding': 'chunked'
+    'Content-Type': 'application/json; odata.metadata=none; odata.streaming=true; charset=utf-8'
+    'Content-Encoding': 'REDACTED'
+    'Vary': 'REDACTED'
+    'Server': 'Microsoft-IIS/10.0'
+    'Strict-Transport-Security': 'REDACTED'
+    'Preference-Applied': 'REDACTED'
+    'OData-Version': 'REDACTED'
+    'request-id': '75797f44-d3d3-11ef-addc-902e1654ba30'
+    'elapsed-time': 'REDACTED'
+    'Date': 'Thu, 16 Jan 2025 06:31:02 GMT'
+2025-01-16 12:01:06,739 - INFO - 127.0.0.1 - - [16/Jan/2025 12:01:06] "POST / HTTP/1.1" 200 -
+2025-01-16 12:01:30,043 - INFO - Request URL: 'https://searchmainai.search.windows.net/indexes('bot-pdf-index')/docs/search.post.search?api-version=REDACTED'
+Request method: 'POST'
+Request headers:
+    'Content-Type': 'application/json'
+    'Content-Length': '160'
+    'api-key': 'REDACTED'
+    'Accept': 'application/json;odata.metadata=none'
+    'x-ms-client-request-id': '85577f7a-d3d3-11ef-b8e3-902e1654ba30'
+    'User-Agent': 'azsdk-python-search-documents/11.5.2 Python/3.12.4 (Windows-10-10.0.19045-SP0)'
+A body is sent with the request
+2025-01-16 12:01:30,371 - INFO - Response status: 200
+Response headers:
+    'Transfer-Encoding': 'chunked'
+    'Content-Type': 'application/json; odata.metadata=none; odata.streaming=true; charset=utf-8'
+    'Content-Encoding': 'REDACTED'
+    'Vary': 'REDACTED'
+    'Server': 'Microsoft-IIS/10.0'
+    'Strict-Transport-Security': 'REDACTED'
+    'Preference-Applied': 'REDACTED'
+    'OData-Version': 'REDACTED'
+    'request-id': '85577f7a-d3d3-11ef-b8e3-902e1654ba30'
+    'elapsed-time': 'REDACTED'
+    'Date': 'Thu, 16 Jan 2025 06:31:30 GMT'
+2025-01-16 12:01:32,474 - INFO - 127.0.0.1 - - [16/Jan/2025 12:01:32] "POST / HTTP/1.1" 200 -
+2025-01-16 12:02:17,987 - INFO - 127.0.0.1 - - [16/Jan/2025 12:02:17] "[32mPOST /clear HTTP/1.1[0m" 302 -
+2025-01-16 12:02:18,346 - INFO - 127.0.0.1 - - [16/Jan/2025 12:02:18] "GET / HTTP/1.1" 200 -
+2025-01-16 12:02:18,787 - INFO - 127.0.0.1 - - [16/Jan/2025 12:02:18] "GET / HTTP/1.1" 200 -
+2025-01-16 12:02:23,508 - INFO - Request URL: 'https://searchmainai.search.windows.net/indexes('bot-pdf-index')/docs/search.post.search?api-version=REDACTED'
+Request method: 'POST'
+Request headers:
+    'Content-Type': 'application/json'
+    'Content-Length': '152'
+    'api-key': 'REDACTED'
+    'Accept': 'application/json;odata.metadata=none'
+    'x-ms-client-request-id': 'a5350caf-d3d3-11ef-8cf5-902e1654ba30'
+    'User-Agent': 'azsdk-python-search-documents/11.5.2 Python/3.12.4 (Windows-10-10.0.19045-SP0)'
+A body is sent with the request
+2025-01-16 12:02:23,764 - INFO - Response status: 200
+Response headers:
+    'Transfer-Encoding': 'chunked'
+    'Content-Type': 'application/json; odata.metadata=none; odata.streaming=true; charset=utf-8'
+    'Content-Encoding': 'REDACTED'
+    'Vary': 'REDACTED'
+    'Server': 'Microsoft-IIS/10.0'
+    'Strict-Transport-Security': 'REDACTED'
+    'Preference-Applied': 'REDACTED'
+    'OData-Version': 'REDACTED'
+    'request-id': 'a5350caf-d3d3-11ef-8cf5-902e1654ba30'
+    'elapsed-time': 'REDACTED'
+    'Date': 'Thu, 16 Jan 2025 06:32:22 GMT'
+2025-01-16 12:02:25,621 - INFO - 127.0.0.1 - - [16/Jan/2025 12:02:25] "POST / HTTP/1.1" 200 -
+2025-01-16 12:02:36,116 - INFO - Request URL: 'https://searchmainai.search.windows.net/indexes('bot-pdf-index')/docs/search.post.search?api-version=REDACTED'
+Request method: 'POST'
+Request headers:
+    'Content-Type': 'application/json'
+    'Content-Length': '166'
+    'api-key': 'REDACTED'
+    'Accept': 'application/json;odata.metadata=none'
+    'x-ms-client-request-id': 'acb8ef17-d3d3-11ef-8355-902e1654ba30'
+    'User-Agent': 'azsdk-python-search-documents/11.5.2 Python/3.12.4 (Windows-10-10.0.19045-SP0)'
+A body is sent with the request
+2025-01-16 12:02:36,899 - INFO - Response status: 200
+Response headers:
+    'Transfer-Encoding': 'chunked'
+    'Content-Type': 'application/json; odata.metadata=none; odata.streaming=true; charset=utf-8'
+    'Content-Encoding': 'REDACTED'
+    'Vary': 'REDACTED'
+    'Server': 'Microsoft-IIS/10.0'
+    'Strict-Transport-Security': 'REDACTED'
+    'Preference-Applied': 'REDACTED'
+    'OData-Version': 'REDACTED'
+    'request-id': 'acb8ef17-d3d3-11ef-8355-902e1654ba30'
+    'elapsed-time': 'REDACTED'
+    'Date': 'Thu, 16 Jan 2025 06:32:36 GMT'
+2025-01-16 12:02:40,092 - INFO - 127.0.0.1 - - [16/Jan/2025 12:02:40] "POST / HTTP/1.1" 200 -
+2025-01-16 12:03:09,136 - INFO - Request URL: 'https://searchmainai.search.windows.net/indexes('bot-pdf-index')/docs/search.post.search?api-version=REDACTED'
+Request method: 'POST'
+Request headers:
+    'Content-Type': 'application/json'
+    'Content-Length': '173'
+    'api-key': 'REDACTED'
+    'Accept': 'application/json;odata.metadata=none'
+    'x-ms-client-request-id': 'c0674208-d3d3-11ef-b102-902e1654ba30'
+    'User-Agent': 'azsdk-python-search-documents/11.5.2 Python/3.12.4 (Windows-10-10.0.19045-SP0)'
+A body is sent with the request
+2025-01-16 12:03:09,550 - INFO - Response status: 200
+Response headers:
+    'Transfer-Encoding': 'chunked'
+    'Content-Type': 'application/json; odata.metadata=none; odata.streaming=true; charset=utf-8'
+    'Content-Encoding': 'REDACTED'
+    'Vary': 'REDACTED'
+    'Server': 'Microsoft-IIS/10.0'
+    'Strict-Transport-Security': 'REDACTED'
+    'Preference-Applied': 'REDACTED'
+    'OData-Version': 'REDACTED'
+    'request-id': 'c0674208-d3d3-11ef-b102-902e1654ba30'
+    'elapsed-time': 'REDACTED'
+    'Date': 'Thu, 16 Jan 2025 06:33:09 GMT'
+2025-01-16 12:03:13,256 - INFO - 127.0.0.1 - - [16/Jan/2025 12:03:13] "POST / HTTP/1.1" 200 -
+2025-01-16 12:03:32,184 - INFO - Request URL: 'https://searchmainai.search.windows.net/indexes('bot-pdf-index')/docs/search.post.search?api-version=REDACTED'
+Request method: 'POST'
+Request headers:
+    'Content-Type': 'application/json'
+    'Content-Length': '159'
+    'api-key': 'REDACTED'
+    'Accept': 'application/json;odata.metadata=none'
+    'x-ms-client-request-id': 'ce24a840-d3d3-11ef-89a5-902e1654ba30'
+    'User-Agent': 'azsdk-python-search-documents/11.5.2 Python/3.12.4 (Windows-10-10.0.19045-SP0)'
+A body is sent with the request
+2025-01-16 12:03:32,580 - INFO - Response status: 200
+Response headers:
+    'Transfer-Encoding': 'chunked'
+    'Content-Type': 'application/json; odata.metadata=none; odata.streaming=true; charset=utf-8'
+    'Content-Encoding': 'REDACTED'
+    'Vary': 'REDACTED'
+    'Server': 'Microsoft-IIS/10.0'
+    'Strict-Transport-Security': 'REDACTED'
+    'Preference-Applied': 'REDACTED'
+    'OData-Version': 'REDACTED'
+    'request-id': 'ce24a840-d3d3-11ef-89a5-902e1654ba30'
+    'elapsed-time': 'REDACTED'
+    'Date': 'Thu, 16 Jan 2025 06:33:32 GMT'
+2025-01-16 12:03:34,400 - INFO - 127.0.0.1 - - [16/Jan/2025 12:03:34] "POST / HTTP/1.1" 200 -
+2025-01-16 12:03:51,258 - INFO - Request URL: 'https://searchmainai.search.windows.net/indexes('bot-pdf-index')/docs/search.post.search?api-version=REDACTED'
+Request method: 'POST'
+Request headers:
+    'Content-Type': 'application/json'
+    'Content-Length': '151'
+    'api-key': 'REDACTED'
+    'Accept': 'application/json;odata.metadata=none'
+    'x-ms-client-request-id': 'd98326c4-d3d3-11ef-a2b8-902e1654ba30'
+    'User-Agent': 'azsdk-python-search-documents/11.5.2 Python/3.12.4 (Windows-10-10.0.19045-SP0)'
+A body is sent with the request
+2025-01-16 12:03:51,536 - INFO - Response status: 200
+Response headers:
+    'Transfer-Encoding': 'chunked'
+    'Content-Type': 'application/json; odata.metadata=none; odata.streaming=true; charset=utf-8'
+    'Content-Encoding': 'REDACTED'
+    'Vary': 'REDACTED'
+    'Server': 'Microsoft-IIS/10.0'
+    'Strict-Transport-Security': 'REDACTED'
+    'Preference-Applied': 'REDACTED'
+    'OData-Version': 'REDACTED'
+    'request-id': 'd98326c4-d3d3-11ef-a2b8-902e1654ba30'
+    'elapsed-time': 'REDACTED'
+    'Date': 'Thu, 16 Jan 2025 06:33:51 GMT'
+2025-01-16 12:03:53,694 - INFO - 127.0.0.1 - - [16/Jan/2025 12:03:53] "POST / HTTP/1.1" 200 -
+2025-01-16 12:04:06,608 - INFO - Request URL: 'https://searchmainai.search.windows.net/indexes('bot-pdf-index')/docs/search.post.search?api-version=REDACTED'
+Request method: 'POST'
+Request headers:
+    'Content-Type': 'application/json'
+    'Content-Length': '167'
+    'api-key': 'REDACTED'
+    'Accept': 'application/json;odata.metadata=none'
+    'x-ms-client-request-id': 'e2a94c30-d3d3-11ef-8680-902e1654ba30'
+    'User-Agent': 'azsdk-python-search-documents/11.5.2 Python/3.12.4 (Windows-10-10.0.19045-SP0)'
+A body is sent with the request
+2025-01-16 12:04:06,983 - INFO - Response status: 200
+Response headers:
+    'Transfer-Encoding': 'chunked'
+    'Content-Type': 'application/json; odata.metadata=none; odata.streaming=true; charset=utf-8'
+    'Content-Encoding': 'REDACTED'
+    'Vary': 'REDACTED'
+    'Server': 'Microsoft-IIS/10.0'
+    'Strict-Transport-Security': 'REDACTED'
+    'Preference-Applied': 'REDACTED'
+    'OData-Version': 'REDACTED'
+    'request-id': 'e2a94c30-d3d3-11ef-8680-902e1654ba30'
+    'elapsed-time': 'REDACTED'
+    'Date': 'Thu, 16 Jan 2025 06:34:06 GMT'
+2025-01-16 12:04:08,532 - INFO - 127.0.0.1 - - [16/Jan/2025 12:04:08] "POST / HTTP/1.1" 200 -
+2025-01-16 12:04:16,049 - INFO - 127.0.0.1 - - [16/Jan/2025 12:04:16] "[32mPOST /clear HTTP/1.1[0m" 302 -
+2025-01-16 12:04:16,307 - INFO - 127.0.0.1 - - [16/Jan/2025 12:04:16] "GET / HTTP/1.1" 200 -
+2025-01-16 12:04:16,653 - INFO - 127.0.0.1 - - [16/Jan/2025 12:04:16] "GET / HTTP/1.1" 200 -
+2025-01-16 12:05:57,119 - WARNING - semantic_settings is not a known attribute of class <class 'azure.search.documents.indexes.models._index.SearchIndex'> and will be ignored
+2025-01-16 12:05:57,123 - INFO - Request URL: 'https://searchmainai.search.windows.net/indexes('bot-pdf-index')?api-version=REDACTED'
+Request method: 'GET'
+Request headers:
+    'api-key': 'REDACTED'
+    'Accept': 'application/json;odata.metadata=minimal'
+    'x-ms-client-request-id': '248898e3-d3d4-11ef-801c-902e1654ba30'
+    'User-Agent': 'azsdk-python-search-documents/11.5.2 Python/3.12.4 (Windows-10-10.0.19045-SP0)'
+No body was attached to the request
+2025-01-16 12:05:58,331 - INFO - Response status: 200
+Response headers:
+    'Transfer-Encoding': 'chunked'
+    'Content-Type': 'application/json; odata.metadata=minimal; odata.streaming=true; charset=utf-8'
+    'Content-Encoding': 'REDACTED'
+    'ETag': '"0x8DD2FB329338881"'
+    'Vary': 'REDACTED'
+    'Server': 'Microsoft-IIS/10.0'
+    'Strict-Transport-Security': 'REDACTED'
+    'Preference-Applied': 'REDACTED'
+    'OData-Version': 'REDACTED'
+    'request-id': '248898e3-d3d4-11ef-801c-902e1654ba30'
+    'elapsed-time': 'REDACTED'
+    'Date': 'Thu, 16 Jan 2025 06:35:58 GMT'
+2025-01-16 12:05:58,331 - INFO - Found existing index: bot-pdf-index
+2025-01-16 12:05:58,470 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://10.4.8.27:5000
+2025-01-16 12:05:58,470 - INFO - [33mPress CTRL+C to quit[0m
+2025-01-16 12:05:58,479 - INFO -  * Restarting with stat
+2025-01-16 12:06:02,432 - WARNING - semantic_settings is not a known attribute of class <class 'azure.search.documents.indexes.models._index.SearchIndex'> and will be ignored
+2025-01-16 12:06:02,434 - INFO - Request URL: 'https://searchmainai.search.windows.net/indexes('bot-pdf-index')?api-version=REDACTED'
+Request method: 'GET'
+Request headers:
+    'api-key': 'REDACTED'
+    'Accept': 'application/json;odata.metadata=minimal'
+    'x-ms-client-request-id': '27b3013a-d3d4-11ef-8d00-902e1654ba30'
+    'User-Agent': 'azsdk-python-search-documents/11.5.2 Python/3.12.4 (Windows-10-10.0.19045-SP0)'
+No body was attached to the request
+2025-01-16 12:06:03,628 - INFO - Response status: 200
+Response headers:
+    'Transfer-Encoding': 'chunked'
+    'Content-Type': 'application/json; odata.metadata=minimal; odata.streaming=true; charset=utf-8'
+    'Content-Encoding': 'REDACTED'
+    'ETag': '"0x8DD2FB329338881"'
+    'Vary': 'REDACTED'
+    'Server': 'Microsoft-IIS/10.0'
+    'Strict-Transport-Security': 'REDACTED'
+    'Preference-Applied': 'REDACTED'
+    'OData-Version': 'REDACTED'
+    'request-id': '27b3013a-d3d4-11ef-8d00-902e1654ba30'
+    'elapsed-time': 'REDACTED'
+    'Date': 'Thu, 16 Jan 2025 06:36:03 GMT'
+2025-01-16 12:06:03,642 - INFO - Found existing index: bot-pdf-index
+2025-01-16 12:06:03,706 - WARNING -  * Debugger is active!
+2025-01-16 12:06:03,731 - INFO -  * Debugger PIN: 184-042-685
+2025-01-16 12:06:03,881 - INFO - 127.0.0.1 - - [16/Jan/2025 12:06:03] "GET / HTTP/1.1" 200 -
+2025-01-16 12:06:13,411 - INFO - Request URL: 'https://searchmainai.search.windows.net/indexes('bot-pdf-index')/docs/search.post.search?api-version=REDACTED'
+Request method: 'POST'
+Request headers:
+    'Content-Type': 'application/json'
+    'Content-Length': '152'
+    'api-key': 'REDACTED'
+    'Accept': 'application/json;odata.metadata=none'
+    'x-ms-client-request-id': '2e3e0527-d3d4-11ef-81bc-902e1654ba30'
+    'User-Agent': 'azsdk-python-search-documents/11.5.2 Python/3.12.4 (Windows-10-10.0.19045-SP0)'
+A body is sent with the request
+2025-01-16 12:06:15,396 - INFO - Response status: 200
+Response headers:
+    'Transfer-Encoding': 'chunked'
+    'Content-Type': 'application/json; odata.metadata=none; odata.streaming=true; charset=utf-8'
+    'Content-Encoding': 'REDACTED'
+    'Vary': 'REDACTED'
+    'Server': 'Microsoft-IIS/10.0'
+    'Strict-Transport-Security': 'REDACTED'
+    'Preference-Applied': 'REDACTED'
+    'OData-Version': 'REDACTED'
+    'request-id': '2e3e0527-d3d4-11ef-81bc-902e1654ba30'
+    'elapsed-time': 'REDACTED'
+    'Date': 'Thu, 16 Jan 2025 06:36:15 GMT'
+2025-01-16 12:06:17,294 - INFO - 127.0.0.1 - - [16/Jan/2025 12:06:17] "POST / HTTP/1.1" 200 -
+2025-01-16 12:06:25,419 - INFO - Request URL: 'https://searchmainai.search.windows.net/indexes('bot-pdf-index')/docs/search.post.search?api-version=REDACTED'
+Request method: 'POST'
+Request headers:
+    'Content-Type': 'application/json'
+    'Content-Length': '166'
+    'api-key': 'REDACTED'
+    'Accept': 'application/json;odata.metadata=none'
+    'x-ms-client-request-id': '35662b6d-d3d4-11ef-a4c2-902e1654ba30'
+    'User-Agent': 'azsdk-python-search-documents/11.5.2 Python/3.12.4 (Windows-10-10.0.19045-SP0)'
+A body is sent with the request
+2025-01-16 12:06:28,728 - INFO - Response status: 200
+Response headers:
+    'Transfer-Encoding': 'chunked'
+    'Content-Type': 'application/json; odata.metadata=none; odata.streaming=true; charset=utf-8'
+    'Content-Encoding': 'REDACTED'
+    'Vary': 'REDACTED'
+    'Server': 'Microsoft-IIS/10.0'
+    'Strict-Transport-Security': 'REDACTED'
+    'Preference-Applied': 'REDACTED'
+    'OData-Version': 'REDACTED'
+    'request-id': '35662b6d-d3d4-11ef-a4c2-902e1654ba30'
+    'elapsed-time': 'REDACTED'
+    'Date': 'Thu, 16 Jan 2025 06:36:25 GMT'
+2025-01-16 12:06:31,778 - INFO - 127.0.0.1 - - [16/Jan/2025 12:06:31] "POST / HTTP/1.1" 200 -
+2025-01-16 12:06:54,716 - INFO - Request URL: 'https://searchmainai.search.windows.net/indexes('bot-pdf-index')/docs/search.post.search?api-version=REDACTED'
+Request method: 'POST'
+Request headers:
+    'Content-Type': 'application/json'
+    'Content-Length': '173'
+    'api-key': 'REDACTED'
+    'Accept': 'application/json;odata.metadata=none'
+    'x-ms-client-request-id': '46dcae29-d3d4-11ef-a6e8-902e1654ba30'
+    'User-Agent': 'azsdk-python-search-documents/11.5.2 Python/3.12.4 (Windows-10-10.0.19045-SP0)'
+A body is sent with the request
+2025-01-16 12:06:55,095 - INFO - Response status: 200
+Response headers:
+    'Transfer-Encoding': 'chunked'
+    'Content-Type': 'application/json; odata.metadata=none; odata.streaming=true; charset=utf-8'
+    'Content-Encoding': 'REDACTED'
+    'Vary': 'REDACTED'
+    'Server': 'Microsoft-IIS/10.0'
+    'Strict-Transport-Security': 'REDACTED'
+    'Preference-Applied': 'REDACTED'
+    'OData-Version': 'REDACTED'
+    'request-id': '46dcae29-d3d4-11ef-a6e8-902e1654ba30'
+    'elapsed-time': 'REDACTED'
+    'Date': 'Thu, 16 Jan 2025 06:36:55 GMT'
+2025-01-16 12:06:58,865 - INFO - 127.0.0.1 - - [16/Jan/2025 12:06:58] "POST / HTTP/1.1" 200 -
+2025-01-16 12:07:19,372 - INFO - Request URL: 'https://searchmainai.search.windows.net/indexes('bot-pdf-index')/docs/search.post.search?api-version=REDACTED'
+Request method: 'POST'
+Request headers:
+    'Content-Type': 'application/json'
+    'Content-Length': '168'
+    'api-key': 'REDACTED'
+    'Accept': 'application/json;odata.metadata=none'
+    'x-ms-client-request-id': '558ec468-d3d4-11ef-b711-902e1654ba30'
+    'User-Agent': 'azsdk-python-search-documents/11.5.2 Python/3.12.4 (Windows-10-10.0.19045-SP0)'
+A body is sent with the request
+2025-01-16 12:07:20,122 - INFO - Response status: 200
+Response headers:
+    'Transfer-Encoding': 'chunked'
+    'Content-Type': 'application/json; odata.metadata=none; odata.streaming=true; charset=utf-8'
+    'Content-Encoding': 'REDACTED'
+    'Vary': 'REDACTED'
+    'Server': 'Microsoft-IIS/10.0'
+    'Strict-Transport-Security': 'REDACTED'
+    'Preference-Applied': 'REDACTED'
+    'OData-Version': 'REDACTED'
+    'request-id': '558ec468-d3d4-11ef-b711-902e1654ba30'
+    'elapsed-time': 'REDACTED'
+    'Date': 'Thu, 16 Jan 2025 06:37:19 GMT'
+2025-01-16 12:07:23,418 - INFO - 127.0.0.1 - - [16/Jan/2025 12:07:23] "POST / HTTP/1.1" 200 -
+2025-01-16 12:07:34,312 - INFO - 127.0.0.1 - - [16/Jan/2025 12:07:34] "[32mPOST /clear HTTP/1.1[0m" 302 -
+2025-01-16 12:07:34,548 - INFO - 127.0.0.1 - - [16/Jan/2025 12:07:34] "GET / HTTP/1.1" 200 -
+2025-01-16 12:07:34,994 - INFO - 127.0.0.1 - - [16/Jan/2025 12:07:34] "GET / HTTP/1.1" 200 -
+2025-01-16 12:08:17,141 - WARNING - semantic_settings is not a known attribute of class <class 'azure.search.documents.indexes.models._index.SearchIndex'> and will be ignored
+2025-01-16 12:08:17,143 - INFO - Request URL: 'https://searchmainai.search.windows.net/indexes('bot-pdf-index')?api-version=REDACTED'
+Request method: 'GET'
+Request headers:
+    'api-key': 'REDACTED'
+    'Accept': 'application/json;odata.metadata=minimal'
+    'x-ms-client-request-id': '77fe0331-d3d4-11ef-809b-902e1654ba30'
+    'User-Agent': 'azsdk-python-search-documents/11.5.2 Python/3.12.4 (Windows-10-10.0.19045-SP0)'
+No body was attached to the request
+2025-01-16 12:08:18,386 - INFO - Response status: 200
+Response headers:
+    'Transfer-Encoding': 'chunked'
+    'Content-Type': 'application/json; odata.metadata=minimal; odata.streaming=true; charset=utf-8'
+    'Content-Encoding': 'REDACTED'
+    'ETag': '"0x8DD2FB329338881"'
+    'Vary': 'REDACTED'
+    'Server': 'Microsoft-IIS/10.0'
+    'Strict-Transport-Security': 'REDACTED'
+    'Preference-Applied': 'REDACTED'
+    'OData-Version': 'REDACTED'
+    'request-id': '77fe0331-d3d4-11ef-809b-902e1654ba30'
+    'elapsed-time': 'REDACTED'
+    'Date': 'Thu, 16 Jan 2025 06:38:18 GMT'
+2025-01-16 12:08:18,393 - INFO - Found existing index: bot-pdf-index
+2025-01-16 12:08:18,473 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://10.4.8.27:5000
+2025-01-16 12:08:18,473 - INFO - [33mPress CTRL+C to quit[0m
+2025-01-16 12:08:18,482 - INFO -  * Restarting with stat
+2025-01-16 12:08:22,135 - WARNING - semantic_settings is not a known attribute of class <class 'azure.search.documents.indexes.models._index.SearchIndex'> and will be ignored
+2025-01-16 12:08:22,135 - INFO - Request URL: 'https://searchmainai.search.windows.net/indexes('bot-pdf-index')?api-version=REDACTED'
+Request method: 'GET'
+Request headers:
+    'api-key': 'REDACTED'
+    'Accept': 'application/json;odata.metadata=minimal'
+    'x-ms-client-request-id': '7af79d24-d3d4-11ef-a5a6-902e1654ba30'
+    'User-Agent': 'azsdk-python-search-documents/11.5.2 Python/3.12.4 (Windows-10-10.0.19045-SP0)'
+No body was attached to the request
+2025-01-16 12:08:23,325 - INFO - Response status: 200
+Response headers:
+    'Transfer-Encoding': 'chunked'
+    'Content-Type': 'application/json; odata.metadata=minimal; odata.streaming=true; charset=utf-8'
+    'Content-Encoding': 'REDACTED'
+    'ETag': '"0x8DD2FB329338881"'
+    'Vary': 'REDACTED'
+    'Server': 'Microsoft-IIS/10.0'
+    'Strict-Transport-Security': 'REDACTED'
+    'Preference-Applied': 'REDACTED'
+    'OData-Version': 'REDACTED'
+    'request-id': '7af79d24-d3d4-11ef-a5a6-902e1654ba30'
+    'elapsed-time': 'REDACTED'
+    'Date': 'Thu, 16 Jan 2025 06:38:23 GMT'
+2025-01-16 12:08:23,332 - INFO - Found existing index: bot-pdf-index
+2025-01-16 12:08:23,400 - WARNING -  * Debugger is active!
+2025-01-16 12:08:23,416 - INFO -  * Debugger PIN: 184-042-685
+2025-01-16 12:08:23,515 - INFO - 127.0.0.1 - - [16/Jan/2025 12:08:23] "GET / HTTP/1.1" 200 -
+2025-01-16 12:08:29,944 - INFO - Request URL: 'https://searchmainai.search.windows.net/indexes('bot-pdf-index')/docs/search.post.search?api-version=REDACTED'
+Request method: 'POST'
+Request headers:
+    'Content-Type': 'application/json'
+    'Content-Length': '152'
+    'api-key': 'REDACTED'
+    'Accept': 'application/json;odata.metadata=none'
+    'x-ms-client-request-id': '7f9f207e-d3d4-11ef-82a8-902e1654ba30'
+    'User-Agent': 'azsdk-python-search-documents/11.5.2 Python/3.12.4 (Windows-10-10.0.19045-SP0)'
+A body is sent with the request
+2025-01-16 12:08:31,186 - INFO - Response status: 200
+Response headers:
+    'Transfer-Encoding': 'chunked'
+    'Content-Type': 'application/json; odata.metadata=none; odata.streaming=true; charset=utf-8'
+    'Content-Encoding': 'REDACTED'
+    'Vary': 'REDACTED'
+    'Server': 'Microsoft-IIS/10.0'
+    'Strict-Transport-Security': 'REDACTED'
+    'Preference-Applied': 'REDACTED'
+    'OData-Version': 'REDACTED'
+    'request-id': '7f9f207e-d3d4-11ef-82a8-902e1654ba30'
+    'elapsed-time': 'REDACTED'
+    'Date': 'Thu, 16 Jan 2025 06:38:31 GMT'
+2025-01-16 12:08:32,772 - INFO - 127.0.0.1 - - [16/Jan/2025 12:08:32] "POST / HTTP/1.1" 200 -
+2025-01-16 12:08:42,643 - INFO - Request URL: 'https://searchmainai.search.windows.net/indexes('bot-pdf-index')/docs/search.post.search?api-version=REDACTED'
+Request method: 'POST'
+Request headers:
+    'Content-Type': 'application/json'
+    'Content-Length': '166'
+    'api-key': 'REDACTED'
+    'Accept': 'application/json;odata.metadata=none'
+    'x-ms-client-request-id': '8730e167-d3d4-11ef-85ae-902e1654ba30'
+    'User-Agent': 'azsdk-python-search-documents/11.5.2 Python/3.12.4 (Windows-10-10.0.19045-SP0)'
+A body is sent with the request
+2025-01-16 12:08:52,192 - INFO - Response status: 200
+Response headers:
+    'Transfer-Encoding': 'chunked'
+    'Content-Type': 'application/json; odata.metadata=none; odata.streaming=true; charset=utf-8'
+    'Content-Encoding': 'REDACTED'
+    'Vary': 'REDACTED'
+    'Server': 'Microsoft-IIS/10.0'
+    'Strict-Transport-Security': 'REDACTED'
+    'Preference-Applied': 'REDACTED'
+    'OData-Version': 'REDACTED'
+    'request-id': '8730e167-d3d4-11ef-85ae-902e1654ba30'
+    'elapsed-time': 'REDACTED'
+    'Date': 'Thu, 16 Jan 2025 06:38:42 GMT'
+2025-01-16 12:08:54,960 - INFO - 127.0.0.1 - - [16/Jan/2025 12:08:54] "POST / HTTP/1.1" 200 -
+2025-01-16 12:09:11,181 - INFO - Request URL: 'https://searchmainai.search.windows.net/indexes('bot-pdf-index')/docs/search.post.search?api-version=REDACTED'
+Request method: 'POST'
+Request headers:
+    'Content-Type': 'application/json'
+    'Content-Length': '173'
+    'api-key': 'REDACTED'
+    'Accept': 'application/json;odata.metadata=none'
+    'x-ms-client-request-id': '983390af-d3d4-11ef-b95f-902e1654ba30'
+    'User-Agent': 'azsdk-python-search-documents/11.5.2 Python/3.12.4 (Windows-10-10.0.19045-SP0)'
+A body is sent with the request
+2025-01-16 12:09:11,872 - INFO - Response status: 200
+Response headers:
+    'Transfer-Encoding': 'chunked'
+    'Content-Type': 'application/json; odata.metadata=none; odata.streaming=true; charset=utf-8'
+    'Content-Encoding': 'REDACTED'
+    'Vary': 'REDACTED'
+    'Server': 'Microsoft-IIS/10.0'
+    'Strict-Transport-Security': 'REDACTED'
+    'Preference-Applied': 'REDACTED'
+    'OData-Version': 'REDACTED'
+    'request-id': '983390af-d3d4-11ef-b95f-902e1654ba30'
+    'elapsed-time': 'REDACTED'
+    'Date': 'Thu, 16 Jan 2025 06:39:11 GMT'
+2025-01-16 12:09:15,588 - INFO - 127.0.0.1 - - [16/Jan/2025 12:09:15] "POST / HTTP/1.1" 200 -
+2025-01-16 12:09:42,104 - INFO - Request URL: 'https://searchmainai.search.windows.net/indexes('bot-pdf-index')/docs/search.post.search?api-version=REDACTED'
+Request method: 'POST'
+Request headers:
+    'Content-Type': 'application/json'
+    'Content-Length': '168'
+    'api-key': 'REDACTED'
+    'Accept': 'application/json;odata.metadata=none'
+    'x-ms-client-request-id': 'aaa205c5-d3d4-11ef-904f-902e1654ba30'
+    'User-Agent': 'azsdk-python-search-documents/11.5.2 Python/3.12.4 (Windows-10-10.0.19045-SP0)'
+A body is sent with the request
+2025-01-16 12:09:43,100 - INFO - Response status: 200
+Response headers:
+    'Transfer-Encoding': 'chunked'
+    'Content-Type': 'application/json; odata.metadata=none; odata.streaming=true; charset=utf-8'
+    'Content-Encoding': 'REDACTED'
+    'Vary': 'REDACTED'
+    'Server': 'Microsoft-IIS/10.0'
+    'Strict-Transport-Security': 'REDACTED'
+    'Preference-Applied': 'REDACTED'
+    'OData-Version': 'REDACTED'
+    'request-id': 'aaa205c5-d3d4-11ef-904f-902e1654ba30'
+    'elapsed-time': 'REDACTED'
+    'Date': 'Thu, 16 Jan 2025 06:39:42 GMT'
+2025-01-16 12:09:46,995 - INFO - 127.0.0.1 - - [16/Jan/2025 12:09:46] "POST / HTTP/1.1" 200 -
+2025-01-20 12:09:49,942 - WARNING - semantic_settings is not a known attribute of class <class 'azure.search.documents.indexes.models._index.SearchIndex'> and will be ignored
+2025-01-20 12:09:49,943 - INFO - Request URL: 'https://searchmainai.search.windows.net/indexes('bot-pdf-index')?api-version=REDACTED'
+Request method: 'GET'
+Request headers:
+    'api-key': 'REDACTED'
+    'Accept': 'application/json;odata.metadata=minimal'
+    'x-ms-client-request-id': '58f51298-d6f9-11ef-957d-902e1654ba30'
+    'User-Agent': 'azsdk-python-search-documents/11.5.2 Python/3.12.4 (Windows-10-10.0.19045-SP0)'
+No body was attached to the request
+2025-01-20 12:09:50,901 - INFO - Response status: 200
+Response headers:
+    'Transfer-Encoding': 'chunked'
+    'Content-Type': 'application/json; odata.metadata=minimal; odata.streaming=true; charset=utf-8'
+    'Content-Encoding': 'REDACTED'
+    'ETag': '"0x8DD2FB329338881"'
+    'Vary': 'REDACTED'
+    'Server': 'Microsoft-IIS/10.0'
+    'Strict-Transport-Security': 'REDACTED'
+    'Preference-Applied': 'REDACTED'
+    'OData-Version': 'REDACTED'
+    'request-id': '58f51298-d6f9-11ef-957d-902e1654ba30'
+    'elapsed-time': 'REDACTED'
+    'Date': 'Mon, 20 Jan 2025 06:39:50 GMT'
+2025-01-20 12:09:50,913 - INFO - Found existing index: bot-pdf-index
+2025-01-20 12:09:51,035 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://10.4.8.27:5000
+2025-01-20 12:09:51,037 - INFO - [33mPress CTRL+C to quit[0m
+2025-01-20 12:09:51,041 - INFO -  * Restarting with stat
+2025-01-20 12:09:53,250 - WARNING - semantic_settings is not a known attribute of class <class 'azure.search.documents.indexes.models._index.SearchIndex'> and will be ignored
+2025-01-20 12:09:53,251 - INFO - Request URL: 'https://searchmainai.search.windows.net/indexes('bot-pdf-index')?api-version=REDACTED'
+Request method: 'GET'
+Request headers:
+    'api-key': 'REDACTED'
+    'Accept': 'application/json;odata.metadata=minimal'
+    'x-ms-client-request-id': '5aede11f-d6f9-11ef-849c-902e1654ba30'
+    'User-Agent': 'azsdk-python-search-documents/11.5.2 Python/3.12.4 (Windows-10-10.0.19045-SP0)'
+No body was attached to the request
+2025-01-20 12:09:54,166 - INFO - Response status: 200
+Response headers:
+    'Transfer-Encoding': 'chunked'
+    'Content-Type': 'application/json; odata.metadata=minimal; odata.streaming=true; charset=utf-8'
+    'Content-Encoding': 'REDACTED'
+    'ETag': '"0x8DD2FB329338881"'
+    'Vary': 'REDACTED'
+    'Server': 'Microsoft-IIS/10.0'
+    'Strict-Transport-Security': 'REDACTED'
+    'Preference-Applied': 'REDACTED'
+    'OData-Version': 'REDACTED'
+    'request-id': '5aede11f-d6f9-11ef-849c-902e1654ba30'
+    'elapsed-time': 'REDACTED'
+    'Date': 'Mon, 20 Jan 2025 06:39:54 GMT'
+2025-01-20 12:09:54,172 - INFO - Found existing index: bot-pdf-index
+2025-01-20 12:09:54,207 - WARNING -  * Debugger is active!
+2025-01-20 12:09:54,229 - INFO -  * Debugger PIN: 184-042-685
+2025-01-20 12:09:55,982 - INFO - 127.0.0.1 - - [20/Jan/2025 12:09:55] "GET / HTTP/1.1" 200 -
+2025-01-20 12:09:56,822 - INFO - 127.0.0.1 - - [20/Jan/2025 12:09:56] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2025-01-20 12:11:07,786 - INFO - Request URL: 'https://searchmainai.search.windows.net/indexes('bot-pdf-index')/docs/search.post.search?api-version=REDACTED'
+Request method: 'POST'
+Request headers:
+    'Content-Type': 'application/json'
+    'Content-Length': '150'
+    'api-key': 'REDACTED'
+    'Accept': 'application/json;odata.metadata=none'
+    'x-ms-client-request-id': '875afe35-d6f9-11ef-b11a-902e1654ba30'
+    'User-Agent': 'azsdk-python-search-documents/11.5.2 Python/3.12.4 (Windows-10-10.0.19045-SP0)'
+A body is sent with the request
+2025-01-20 12:11:08,908 - INFO - Response status: 200
+Response headers:
+    'Transfer-Encoding': 'chunked'
+    'Content-Type': 'application/json; odata.metadata=none; odata.streaming=true; charset=utf-8'
+    'Content-Encoding': 'REDACTED'
+    'Vary': 'REDACTED'
+    'Server': 'Microsoft-IIS/10.0'
+    'Strict-Transport-Security': 'REDACTED'
+    'Preference-Applied': 'REDACTED'
+    'OData-Version': 'REDACTED'
+    'request-id': '875afe35-d6f9-11ef-b11a-902e1654ba30'
+    'elapsed-time': 'REDACTED'
+    'Date': 'Mon, 20 Jan 2025 06:41:08 GMT'
+2025-01-20 12:11:10,957 - INFO - 127.0.0.1 - - [20/Jan/2025 12:11:10] "POST / HTTP/1.1" 200 -
+2025-01-20 12:12:10,915 - INFO - 127.0.0.1 - - [20/Jan/2025 12:12:10] "[32mPOST /clear HTTP/1.1[0m" 302 -
+2025-01-20 12:12:11,076 - INFO - 127.0.0.1 - - [20/Jan/2025 12:12:11] "GET / HTTP/1.1" 200 -
+2025-01-20 12:30:14,610 - WARNING - semantic_settings is not a known attribute of class <class 'azure.search.documents.indexes.models._index.SearchIndex'> and will be ignored
+2025-01-20 12:30:14,610 - INFO - Request URL: 'https://searchmainai.search.windows.net/indexes('bot-pdf-index')?api-version=REDACTED'
+Request method: 'GET'
+Request headers:
+    'api-key': 'REDACTED'
+    'Accept': 'application/json;odata.metadata=minimal'
+    'x-ms-client-request-id': '32ea6efa-d6fc-11ef-80f9-902e1654ba30'
+    'User-Agent': 'azsdk-python-search-documents/11.5.2 Python/3.12.4 (Windows-10-10.0.19045-SP0)'
+No body was attached to the request
+2025-01-20 12:30:15,603 - INFO - Response status: 200
+Response headers:
+    'Transfer-Encoding': 'chunked'
+    'Content-Type': 'application/json; odata.metadata=minimal; odata.streaming=true; charset=utf-8'
+    'Content-Encoding': 'REDACTED'
+    'ETag': '"0x8DD2FB329338881"'
+    'Vary': 'REDACTED'
+    'Server': 'Microsoft-IIS/10.0'
+    'Strict-Transport-Security': 'REDACTED'
+    'Preference-Applied': 'REDACTED'
+    'OData-Version': 'REDACTED'
+    'request-id': '32ea6efa-d6fc-11ef-80f9-902e1654ba30'
+    'elapsed-time': 'REDACTED'
+    'Date': 'Mon, 20 Jan 2025 07:00:15 GMT'
+2025-01-20 12:30:15,610 - INFO - Found existing index: bot-pdf-index
+2025-01-20 12:30:15,662 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://10.4.8.27:5000
+2025-01-20 12:30:15,673 - INFO - [33mPress CTRL+C to quit[0m
+2025-01-20 12:30:15,674 - INFO -  * Restarting with stat
+2025-01-20 12:30:17,773 - WARNING - semantic_settings is not a known attribute of class <class 'azure.search.documents.indexes.models._index.SearchIndex'> and will be ignored
+2025-01-20 12:30:17,774 - INFO - Request URL: 'https://searchmainai.search.windows.net/indexes('bot-pdf-index')?api-version=REDACTED'
+Request method: 'GET'
+Request headers:
+    'api-key': 'REDACTED'
+    'Accept': 'application/json;odata.metadata=minimal'
+    'x-ms-client-request-id': '34cd3a38-d6fc-11ef-8056-902e1654ba30'
+    'User-Agent': 'azsdk-python-search-documents/11.5.2 Python/3.12.4 (Windows-10-10.0.19045-SP0)'
+No body was attached to the request
+2025-01-20 12:30:18,689 - INFO - Response status: 200
+Response headers:
+    'Transfer-Encoding': 'chunked'
+    'Content-Type': 'application/json; odata.metadata=minimal; odata.streaming=true; charset=utf-8'
+    'Content-Encoding': 'REDACTED'
+    'ETag': '"0x8DD2FB329338881"'
+    'Vary': 'REDACTED'
+    'Server': 'Microsoft-IIS/10.0'
+    'Strict-Transport-Security': 'REDACTED'
+    'Preference-Applied': 'REDACTED'
+    'OData-Version': 'REDACTED'
+    'request-id': '34cd3a38-d6fc-11ef-8056-902e1654ba30'
+    'elapsed-time': 'REDACTED'
+    'Date': 'Mon, 20 Jan 2025 07:00:17 GMT'
+2025-01-20 12:30:18,701 - INFO - Found existing index: bot-pdf-index
+2025-01-20 12:30:18,750 - WARNING -  * Debugger is active!
+2025-01-20 12:30:18,768 - INFO -  * Debugger PIN: 184-042-685
+2025-01-20 12:30:18,869 - INFO - 127.0.0.1 - - [20/Jan/2025 12:30:18] "GET / HTTP/1.1" 200 -
+2025-01-20 12:30:21,126 - INFO - Request URL: 'https://searchmainai.search.windows.net/indexes('bot-pdf-index')/docs/search.post.search?api-version=REDACTED'
+Request method: 'POST'
+Request headers:
+    'Content-Type': 'application/json'
+    'Content-Length': '150'
+    'api-key': 'REDACTED'
+    'Accept': 'application/json;odata.metadata=none'
+    'x-ms-client-request-id': '36cccde2-d6fc-11ef-830b-902e1654ba30'
+    'User-Agent': 'azsdk-python-search-documents/11.5.2 Python/3.12.4 (Windows-10-10.0.19045-SP0)'
+A body is sent with the request
+2025-01-20 12:30:22,079 - INFO - Response status: 200
+Response headers:
+    'Transfer-Encoding': 'chunked'
+    'Content-Type': 'application/json; odata.metadata=none; odata.streaming=true; charset=utf-8'
+    'Content-Encoding': 'REDACTED'
+    'Vary': 'REDACTED'
+    'Server': 'Microsoft-IIS/10.0'
+    'Strict-Transport-Security': 'REDACTED'
+    'Preference-Applied': 'REDACTED'
+    'OData-Version': 'REDACTED'
+    'request-id': '36cccde2-d6fc-11ef-830b-902e1654ba30'
+    'elapsed-time': 'REDACTED'
+    'Date': 'Mon, 20 Jan 2025 07:00:22 GMT'
+2025-01-20 12:30:23,492 - INFO - 127.0.0.1 - - [20/Jan/2025 12:30:23] "POST / HTTP/1.1" 200 -
